@@ -1,142 +1,151 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="uk" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="uk" version="2.1">
 <context>
     <name>AboutDialog</name>
     <message>
-        <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Bitcoin</source>
-        <translation>Про Bitcoin</translation>
+        <source>About Fancycoin Core</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation>Версія &lt;b&gt;Bitcoin&apos;a&lt;b&gt;</translation>
+        <source>&lt;b&gt;Fancycoin Core&lt;/b&gt; version</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../forms/aboutdialog.ui" line="97"/>
-        <source>Copyright © 2009-2012 Bitcoin Developers
-
+        <source>
 This is experimental software.
 
-Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>Авторське право © 2009-2012 Розробники Bitcoin
-
+        <translation>
 Це програмне забезпечення є експериментальним.
 
-Поширюється за ліцензією MIT/X11, додаткова інформація міститься у файлі license.txt, а також за адресою http://www.opensource.org/licenses/mit-license.php.
+Поширюється за ліцензією MIT/X11, додаткова інформація міститься у файлі COPYING, а також за адресою http://www.opensource.org/licenses/mit-license.php.
 
 Цей продукт включає в себе програмне забезпечення, розроблене в рамках проекту OpenSSL (http://www.openssl.org/), криптографічне програмне забезпечення, написане Еріком Янгом (eay@cryptsoft.com), та функції для роботи з UPnP, написані Томасом Бернардом.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Авторське право</translation>
+    </message>
+    <message>
+        <source>The Bitcoin and Fancycoin Core developers</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="14"/>
-        <source>Address Book</source>
-        <translation>Адресна книга</translation>
-    </message>
-    <message>
-        <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Bitcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Це ваші адреси для отримання платежів. Ви можете давати різні адреси різним людям, таким чином маючи можливість відслідкувати хто конкретно і скільки вам заплатив. </translation>
-    </message>
-    <message>
-        <location filename="../forms/addressbookpage.ui" line="36"/>
         <source>Double-click to edit address or label</source>
         <translation>Двічі клікніть на адресу чи назву для їх зміни</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="63"/>
         <source>Create a new address</source>
         <translation>Створити нову адресу</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="77"/>
+        <source>&amp;New</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Копіювати виділену адресу в буфер обміну</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="66"/>
-        <source>&amp;New Address</source>
+        <source>&amp;Copy</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="80"/>
+        <source>C&amp;lose</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <source>&amp;Copy Address</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Скопіювати адресу</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="91"/>
-        <source>Show &amp;QR Code</source>
-        <translation>Показати QR-&amp;Код</translation>
+        <source>Delete the currently selected address from the list</source>
+        <translation>Вилучити вибрані адреси з переліку</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="102"/>
-        <source>Sign a message to prove you own this address</source>
-        <translation>Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Експортувати дані з поточної вкладки в файл</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="105"/>
-        <source>&amp;Sign Message</source>
-        <translation>&amp;Підписати повідомлення</translation>
+        <source>&amp;Export</source>
+        <translation>&amp; Експорт</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="116"/>
-        <source>Delete the currently selected address from the list. Only sending addresses can be deleted.</source>
-        <translation>Видалити виділену адресу зі списку. Лише адреси з адресної книги можуть бути видалені.</translation>
-    </message>
-    <message>
-        <location filename="../forms/addressbookpage.ui" line="119"/>
         <source>&amp;Delete</source>
         <translation>&amp;Видалити</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="63"/>
+        <source>Choose the address to send coins to</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>These are your Fancycoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Це ваші Fancycoin адреси для відправки платежів. Перед відправкою монети Завжди перевіряйте суму та адресу прийому.</translation>
+    </message>
+    <message>
+        <source>These are your Fancycoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <source>Copy &amp;Label</source>
-        <translation type="unfinished"/>
+        <translation>Скопіювати &amp;мітку</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="65"/>
         <source>&amp;Edit</source>
+        <translation>&amp;Редагувати</translation>
+    </message>
+    <message>
+        <source>Export Address List</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="292"/>
-        <source>Export Address Book Data</source>
-        <translation>Експортувати адресну книгу</translation>
-    </message>
-    <message>
-        <location filename="../addressbookpage.cpp" line="293"/>
         <source>Comma separated file (*.csv)</source>
         <translation>Файли відділені комами (*.csv)</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="306"/>
-        <source>Error exporting</source>
-        <translation>Помилка при експортуванні</translation>
+        <source>Exporting Failed</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="306"/>
-        <source>Could not write to file %1.</source>
-        <translation>Неможливо записати у файл %1.</translation>
+        <source>There was an error trying to save the address list to %1.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="142"/>
         <source>Label</source>
         <translation>Назва</translation>
     </message>
     <message>
-        <location filename="../addresstablemodel.cpp" line="142"/>
         <source>Address</source>
         <translation>Адреса</translation>
     </message>
     <message>
-        <location filename="../addresstablemodel.cpp" line="178"/>
         <source>(no label)</source>
         <translation>(немає назви)</translation>
     </message>
@@ -144,432 +153,393 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="26"/>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished"/>
+        <translation>Діалог введення паролю</translation>
     </message>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="47"/>
         <source>Enter passphrase</source>
         <translation>Введіть пароль</translation>
     </message>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="61"/>
         <source>New passphrase</source>
         <translation>Новий пароль</translation>
     </message>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="75"/>
         <source>Repeat new passphrase</source>
         <translation>Повторіть пароль</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Введіть новий пароль для гаманця.&lt;br/&gt;Будь ласка, використовуйте паролі що містять &lt;b&gt; як мінімум 10 випадкових символів &lt;/b&gt; або &lt;b&gt; як мінімум 8 слів&lt;/b&gt;.</translation>
+        <translation>Введіть новий пароль для гаманця.&lt;br/&gt;Будь ласка, використовуйте паролі що містять &lt;b&gt;як мінімум 10 випадкових символів&lt;/b&gt;, або &lt;b&gt;як мінімум 8 слів&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="34"/>
         <source>Encrypt wallet</source>
         <translation>Зашифрувати гаманець</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="37"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Ця операція потребує пароль для розблокування гаманця.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="42"/>
         <source>Unlock wallet</source>
         <translation>Розблокувати гаманець</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="45"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Ця операція потребує пароль для дешифрування гаманця.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="50"/>
         <source>Decrypt wallet</source>
         <translation>Дешифрувати гаманець</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="53"/>
         <source>Change passphrase</source>
         <translation>Змінити пароль</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="54"/>
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Ввести старий та новий паролі для гаманця.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="100"/>
         <source>Confirm wallet encryption</source>
         <translation>Підтвердити шифрування гаманця</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="101"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!
-Are you sure you wish to encrypt your wallet?</source>
-        <translation>УВАГА: Якщо ви зашифруєте гаманець і забудете пароль, ви &lt;b&gt;ВТРАТИТЕ ВСІ СВОЇ БІТКОІНИ&lt;/b&gt;!
-Ви дійсно хочете зашифрувати свій гаманець?</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FancycoinS&lt;/b&gt;!</source>
+        <translation>УВАГА: Якщо ви зашифруєте гаманець і забудете пароль, ви &lt;b&gt;ВТРАТИТЕ ВСІ СВОЇ БІТКОІНИ&lt;/b&gt;!</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="110"/>
-        <location filename="../askpassphrasedialog.cpp" line="159"/>
+        <source>Are you sure you wish to encrypt your wallet?</source>
+        <translation>Ви дійсно хочете зашифрувати свій гаманець?</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>ВАЖЛИВО: Всі попередні резервні копії, які ви зробили з вашого гаманця файл повинен бути замінений новоствореному, зашифрованому файлі гаманця. З міркувань безпеки, попередні резервні копії в незашифрованому файлі гаманець стане марним, як тільки ви починаєте використовувати нову, зашифрований гаманець.</translation>
+    </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Увага: Ввімкнено Caps Lock!</translation>
+    </message>
+    <message>
         <source>Wallet encrypted</source>
         <translation>Гаманець зашифровано</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="111"/>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Біткоін-клієнт буде закрито для завершення процесу шифрування. Пам’ятайте, що шифрування гаманця не може повністю захистити ваші біткоіни від кражі, у випадку якщо ваш комп’ютер буде інфіковано шкідливими програмами.</translation>
+        <source>Fancycoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Fancycoins from being stolen by malware infecting your computer.</source>
+        <translation>Біткоін-клієнт буде закрито для завершення процесу шифрування. Пам&apos;ятайте, що шифрування гаманця не може повністю захистити ваші біткоіни від крадіжки, у випадку якщо ваш комп&apos;ютер буде інфіковано шкідливими програмами.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="207"/>
-        <location filename="../askpassphrasedialog.cpp" line="231"/>
-        <source>Warning: The Caps Lock key is on.</source>
-        <translation>Увага: Ввімкнено Caps Lock</translation>
-    </message>
-    <message>
-        <location filename="../askpassphrasedialog.cpp" line="116"/>
-        <location filename="../askpassphrasedialog.cpp" line="123"/>
-        <location filename="../askpassphrasedialog.cpp" line="165"/>
-        <location filename="../askpassphrasedialog.cpp" line="171"/>
         <source>Wallet encryption failed</source>
         <translation>Не вдалося зашифрувати гаманець</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="117"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
         <translation>Виникла помилка під час шифрування гаманця. Ваш гаманець не було зашифровано.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="124"/>
-        <location filename="../askpassphrasedialog.cpp" line="172"/>
         <source>The supplied passphrases do not match.</source>
         <translation>Введені паролі не співпадають.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="135"/>
         <source>Wallet unlock failed</source>
         <translation>Не вдалося розблокувати гаманець</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="136"/>
-        <location filename="../askpassphrasedialog.cpp" line="147"/>
-        <location filename="../askpassphrasedialog.cpp" line="166"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>Введений пароль є невірним.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="146"/>
         <source>Wallet decryption failed</source>
         <translation>Не вдалося розшифрувати гаманець</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="160"/>
-        <source>Wallet passphrase was succesfully changed.</source>
+        <source>Wallet passphrase was successfully changed.</source>
         <translation>Пароль було успішно змінено.</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="73"/>
-        <source>Bitcoin Wallet</source>
-        <translation>Гаманець</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="215"/>
         <source>Sign &amp;message...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Підписати повідомлення...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="248"/>
-        <source>Show/Hide &amp;Bitcoin</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="515"/>
         <source>Synchronizing with network...</source>
         <translation>Синхронізація з мережею...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="185"/>
         <source>&amp;Overview</source>
         <translation>&amp;Огляд</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="186"/>
+        <source>Node</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
         <translation>Показати загальний огляд гаманця</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="191"/>
         <source>&amp;Transactions</source>
-        <translation>Пе&amp;реклади</translation>
+        <translation>Транзакції</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="192"/>
         <source>Browse transaction history</source>
-        <translation>Переглянути історію переказів</translation>
+        <translation>Переглянути історію транзакцій</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="197"/>
-        <source>&amp;Address Book</source>
-        <translation>&amp;Адресна книга</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="198"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>Редагувати список збережених адрес та міток</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="203"/>
-        <source>&amp;Receive coins</source>
-        <translation>О&amp;тримати</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="204"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Показати список адрес для отримання платежів</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="209"/>
-        <source>&amp;Send coins</source>
-        <translation>В&amp;ідправити</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="216"/>
-        <source>Prove you control an address</source>
-        <translation>Доведіть, що це ваша адреса</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="235"/>
         <source>E&amp;xit</source>
         <translation>&amp;Вихід</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="236"/>
         <source>Quit application</source>
         <translation>Вийти</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="239"/>
-        <source>&amp;About %1</source>
-        <translation>П&amp;ро %1</translation>
+        <source>Show information about Fancycoin</source>
+        <translation>Показати інформацію про Fancycoin</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show information about Bitcoin</source>
-        <translation>Показати інформацію про Bitcoin</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="242"/>
         <source>About &amp;Qt</source>
         <translation>&amp;Про Qt</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="243"/>
         <source>Show information about Qt</source>
         <translation>Показати інформацію про Qt</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="245"/>
         <source>&amp;Options...</source>
         <translation>&amp;Параметри...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="252"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Шифрування гаманця...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="255"/>
         <source>&amp;Backup Wallet...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Резервне копіювання гаманця...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="257"/>
         <source>&amp;Change Passphrase...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="517"/>
-        <source>~%n block(s) remaining</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation>Змінити парол&amp;ь...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="528"/>
-        <source>Downloaded %1 of %2 blocks of transaction history (%3% done).</source>
+        <source>&amp;Sending addresses...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="250"/>
-        <source>&amp;Export...</source>
-        <translation>&amp;Експорт...</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="210"/>
-        <source>Send coins to a Bitcoin address</source>
+        <source>&amp;Receiving addresses...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="246"/>
-        <source>Modify configuration options for Bitcoin</source>
+        <source>Open &amp;URI...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="249"/>
-        <source>Show or hide the Bitcoin window</source>
-        <translation type="unfinished"/>
+        <source>Importing blocks from disk...</source>
+        <translation>Імпорт блоків з диску...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="251"/>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Експортувати дані з поточної вкладки в файл</translation>
+        <source>Reindexing blocks on disk...</source>
+        <translation>Переіндексація блоків на диску ...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="253"/>
-        <source>Encrypt or decrypt wallet</source>
-        <translation>Зашифрувати чи розшифрувати гаманець</translation>
+        <source>Send coins to a Fancycoin address</source>
+        <translation>Відправити монети на вказану адресу</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="256"/>
+        <source>Modify configuration options for Fancycoin</source>
+        <translation>Редагувати параметри</translation>
+    </message>
+    <message>
         <source>Backup wallet to another location</source>
         <translation>Резервне копіювання гаманця в інше місце</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="258"/>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Змінити пароль, який використовується для шифрування гаманця</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="259"/>
         <source>&amp;Debug window</source>
-        <translation type="unfinished"/>
+        <translation>Вікно зневадження</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="260"/>
         <source>Open debugging and diagnostic console</source>
-        <translation type="unfinished"/>
+        <translation>Відкрити консоль зневадження і діагностики</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="261"/>
         <source>&amp;Verify message...</source>
-        <translation type="unfinished"/>
+        <translation>Перевірити повідомлення...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="262"/>
-        <source>Verify a message signature</source>
-        <translation type="unfinished"/>
+        <source>Fancycoin</source>
+        <translation>Fancycoin</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="286"/>
+        <source>Wallet</source>
+        <translation>Гаманець</translation>
+    </message>
+    <message>
+        <source>&amp;Send</source>
+        <translation>&amp;Відправити</translation>
+    </message>
+    <message>
+        <source>&amp;Receive</source>
+        <translation>&amp;Отримати</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>Показати / Приховати</translation>
+    </message>
+    <message>
+        <source>Show or hide the main Window</source>
+        <translation>Показує або приховує головне вікно</translation>
+    </message>
+    <message>
+        <source>Encrypt the private keys that belong to your wallet</source>
+        <translation>Шифрування закритих ключів, які належать вашому гаманці</translation>
+    </message>
+    <message>
+        <source>Sign messages with your Fancycoin addresses to prove you own them</source>
+        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою Bitcoin-адресою </translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Fancycoin addresses</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Bitcoin-адресою</translation>
+    </message>
+    <message>
         <source>&amp;File</source>
         <translation>&amp;Файл</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="296"/>
         <source>&amp;Settings</source>
         <translation>&amp;Налаштування</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="302"/>
         <source>&amp;Help</source>
         <translation>&amp;Довідка</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="311"/>
         <source>Tabs toolbar</source>
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="322"/>
-        <source>Actions toolbar</source>
-        <translation>Панель дій</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="334"/>
-        <location filename="../bitcoingui.cpp" line="343"/>
         <source>[testnet]</source>
         <translation>[тестова мережа]</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="343"/>
-        <location filename="../bitcoingui.cpp" line="399"/>
-        <source>Bitcoin client</source>
+        <source>Fancycoin Core</source>
+        <translation>Fancycoin Ядро</translation>
+    </message>
+    <message>
+        <source>Request payments (generates QR codes and Fancycoin: URIs)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>&amp;About Fancycoin Core</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Show the list of used sending addresses and labels</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Show the list of used receiving addresses and labels</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Open a Fancycoin: URI or payment request</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>&amp;Command-line options</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Show the Fancycoin Core help message to get a list with possible Fancycoin command-line options</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Fancycoin client</source>
+        <translation>Bitcoin-клієнт</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Fancycoin network</source>
+        <translation><numerusform>%n активне з&apos;єднання з мережею</numerusform><numerusform>%n активні з&apos;єднання з мережею</numerusform><numerusform>%n активних з&apos;єднань з мережею</numerusform></translation>
+    </message>
+    <message>
+        <source>No block source available...</source>
+        <translation>Ні блок джерела доступні ...</translation>
+    </message>
+    <message>
+        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Processed %1 blocks of transaction history.</source>
+        <translation>Оброблено %1 блоків історії транзакцій.</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="492"/>
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n активне з’єднання з мережею</numerusform><numerusform>%n активні з’єднання з мережею</numerusform><numerusform>%n активних з’єднань з мережею</numerusform></translation>
+        <source>%n year(s)</source>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="540"/>
-        <source>Downloaded %1 blocks of transaction history.</source>
-        <translation>Завантажено %1 блоків історії транзакцій.</translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="555"/>
-        <source>%n second(s) ago</source>
-        <translation><numerusform>%n секунду тому</numerusform><numerusform>%n секунди тому</numerusform><numerusform>%n секунд тому</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="559"/>
-        <source>%n minute(s) ago</source>
-        <translation><numerusform>%n хвилину тому</numerusform><numerusform>%n хвилини тому</numerusform><numerusform>%n хвилин тому</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="563"/>
-        <source>%n hour(s) ago</source>
-        <translation><numerusform>%n годину тому</numerusform><numerusform>%n години тому</numerusform><numerusform>%n годин тому</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="567"/>
-        <source>%n day(s) ago</source>
-        <translation><numerusform>%n день тому</numerusform><numerusform>%n дня тому</numerusform><numerusform>%n днів тому</numerusform></translation>
+        <source>%1 behind</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="573"/>
+        <source>Last received block was generated %1 ago.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Transactions after this will not yet be visible.</source>
+        <translation>Угоди після цього буде ще не буде видно.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Помилка</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Увага</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Інформація</translation>
+    </message>
+    <message>
         <source>Up to date</source>
         <translation>Синхронізовано</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="580"/>
         <source>Catching up...</source>
         <translation>Синхронізується...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="590"/>
-        <source>Last received block was generated %1.</source>
-        <translation>Останній отриманий блок було згенеровано %1.</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="649"/>
-        <source>This transaction is over the size limit.  You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?</source>
-        <translation>Цей переказ перевищує максимально допустимий розмір. Проте ви можете здійснити її, додавши комісію в %1, яка відправиться тим вузлам що оброблять ваш переказ, та допоможе підтримати мережу. Ви хочете додати комісію?</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="654"/>
-        <source>Confirm transaction fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="681"/>
         <source>Sent transaction</source>
-        <translation>Надіслані перекази</translation>
+        <translation>Надіслані транзакції</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="682"/>
         <source>Incoming transaction</source>
         <translation>Отримані перекази</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="683"/>
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -582,1111 +552,1849 @@ Address: %4
 </translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="804"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>&lt;b&gt;Зашифрований&lt;/b&gt; гаманець &lt;b&gt;розблоковано&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="812"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>&lt;b&gt;Зашифрований&lt;/b&gt; гаманець &lt;b&gt;заблоковано&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="835"/>
-        <source>Backup Wallet</source>
-        <translation>Резервне копіювання гаманця</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="835"/>
-        <source>Wallet Data (*.dat)</source>
-        <translation>Дані гаманця (*.dat)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="838"/>
-        <source>Backup Failed</source>
-        <translation>Резервне копіювання не вдалося</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="838"/>
-        <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>Виникла помилка при спробі зберегти гаманець в новому місці</translation>
-    </message>
-    <message>
-        <location filename="../bitcoin.cpp" line="112"/>
-        <source>A fatal error occured. Bitcoin can no longer continue safely and will quit.</source>
-        <translation type="unfinished"/>
+        <source>A fatal error occurred. Fancycoin can no longer continue safely and will quit.</source>
+        <translation>Сталася фатальна помилка. Fancycoin більше не може продовжувати безпечно і піде.</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="84"/>
         <source>Network Alert</source>
-        <translation type="unfinished"/>
+        <translation>Сповіщення мережі</translation>
     </message>
 </context>
 <context>
-    <name>DisplayOptionsPage</name>
+    <name>CoinControlDialog</name>
     <message>
-        <location filename="../optionsdialog.cpp" line="246"/>
-        <source>Display</source>
-        <translation>Відображення</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="257"/>
-        <source>default</source>
+        <source>Coin Control Address Selection</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="263"/>
-        <source>The user interface language can be set here. This setting will only take effect after restarting Bitcoin.</source>
+        <source>Quantity:</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="252"/>
-        <source>User Interface &amp;Language:</source>
+        <source>Bytes:</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="273"/>
-        <source>&amp;Unit to show amounts in:</source>
+        <source>Amount:</source>
+        <translation>Кількість:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="277"/>
-        <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
-        <translation>Виберіть одиницю вимірювання монет, яка буде відображатись в гаманці та при відправленні.</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="284"/>
-        <source>&amp;Display addresses in transaction list</source>
+        <source>Fee:</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="285"/>
-        <source>Whether to show Bitcoin addresses in the transaction list</source>
+        <source>Low Output:</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="303"/>
-        <source>Warning</source>
+        <source>After Fee:</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="303"/>
-        <source>This setting will take effect after restarting Bitcoin.</source>
+        <source>Change:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>(un)select all</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Tree mode</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>List mode</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Кількість</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адреса</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Confirmations</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Підтверджені</translation>
+    </message>
+    <message>
+        <source>Priority</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Скопіювати адресу</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Скопіювати мітку</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Копіювати кількість</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>Копіювати ID транзакції </translation>
+    </message>
+    <message>
+        <source>Lock unspent</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Unlock unspent</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Copy priority</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Copy low output</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>highest</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>higher</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>high</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>medium-high</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>low-medium</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>low</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>lower</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>lowest</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>(%1 locked)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>none</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Dust</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>no</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>This means a fee of at least %1 per kB is required.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Can vary +/- 1 byte per input.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Transactions with higher priority are more likely to get included into a block.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>This label turns red, if the priority is smaller than &quot;medium&quot;.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>This means a fee of at least %1 is required.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Amounts below 0.546 times the minimum relay fee are shown as dust.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>This label turns red, if the change is smaller than %1.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(немає назви)</translation>
+    </message>
+    <message>
+        <source>change from %1 (%2)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>(change)</source>
         <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="14"/>
         <source>Edit Address</source>
         <translation>Редагувати адресу</translation>
     </message>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="25"/>
         <source>&amp;Label</source>
         <translation>&amp;Мітка</translation>
     </message>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="35"/>
-        <source>The label associated with this address book entry</source>
-        <translation>Мітка, пов’язана з цим записом адресної книги</translation>
+        <source>The label associated with this address list entry</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="42"/>
+        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <source>&amp;Address</source>
         <translation>&amp;Адреса</translation>
     </message>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="52"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Адреса, пов’язана з цим записом адресної книги.</translation>
-    </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="20"/>
         <source>New receiving address</source>
         <translation>Нова адреса для отримання</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="24"/>
         <source>New sending address</source>
         <translation>Нова адреса для відправлення</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="27"/>
         <source>Edit receiving address</source>
         <translation>Редагувати адресу для отримання</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="31"/>
         <source>Edit sending address</source>
         <translation>Редагувати адресу для відправлення</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="91"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>Введена адреса «%1» вже присутня в адресній книзі.</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="unfinished"/>
+        <source>The entered address &quot;%1&quot; is not a valid Fancycoin address.</source>
+        <translation>Введена адреса «%1» не є коректною адресою в мережі Fancycoin.</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="101"/>
         <source>Could not unlock wallet.</source>
         <translation>Неможливо розблокувати гаманець.</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="106"/>
         <source>New key generation failed.</source>
         <translation>Не вдалося згенерувати нові ключі.</translation>
     </message>
 </context>
 <context>
-    <name>HelpMessageBox</name>
+    <name>FreespaceChecker</name>
     <message>
-        <location filename="../bitcoin.cpp" line="133"/>
-        <location filename="../bitcoin.cpp" line="143"/>
-        <source>Bitcoin-Qt</source>
+        <source>A new data directory will be created.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="133"/>
+        <source>name</source>
+        <translation>назва</translation>
+    </message>
+    <message>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Path already exists, and is not a directory.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Cannot create data directory here.</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>Fancycoin Core - Command-line options</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Fancycoin Core</source>
+        <translation>Fancycoin Ядро</translation>
+    </message>
+    <message>
         <source>version</source>
-        <translation type="unfinished"/>
+        <translation>версія</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="135"/>
         <source>Usage:</source>
-        <translation>Вкористання:</translation>
+        <translation>Використання:</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="136"/>
-        <source>options</source>
-        <translation type="unfinished"/>
+        <source>command-line options</source>
+        <translation>параметри командного рядка</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="138"/>
         <source>UI options</source>
-        <translation type="unfinished"/>
+        <translation>Параметри інтерфейсу</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="139"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation type="unfinished"/>
+        <translation>Встановлення мови, наприклад &quot;de_DE&quot; (типово: системна)</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="140"/>
         <source>Start minimized</source>
-        <translation>Запускати згорнутим
-</translation>
+        <translation>Запускати згорнутим</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="141"/>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <source>Show splash screen on startup (default: 1)</source>
+        <translation>Показувати заставку під час запуску (типово: 1)</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
         <translation type="unfinished"/>
     </message>
 </context>
 <context>
-    <name>MainOptionsPage</name>
+    <name>Intro</name>
     <message>
-        <location filename="../optionsdialog.cpp" line="227"/>
-        <source>Detach block and address databases at shutdown. This means they can be moved to another data directory, but it slows down shutdown. The wallet is always detached.</source>
+        <source>Welcome</source>
+        <translation>Вітання</translation>
+    </message>
+    <message>
+        <source>Welcome to Fancycoin Core.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="212"/>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Заплатити комісі&amp;ю</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="204"/>
-        <source>Main</source>
-        <translation>Головні</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="206"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation>Добровільна комісія за кожен Кб переказу, яка дозволяє бути впевненим у тому, що ваш переказ буде оброблено швидко. Розмір більшості переказів рівен 1 Кб. Рекомендована комісія: 0,01.</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="222"/>
-        <source>&amp;Start Bitcoin on system login</source>
+        <source>As this is the first time the program is launched, you can choose where Fancycoin Core will store its data.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="223"/>
-        <source>Automatically start Bitcoin after logging in to the system</source>
+        <source>Fancycoin Core will download and store a copy of the Fancycoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="226"/>
-        <source>&amp;Detach databases at shutdown</source>
+        <source>Use the default data directory</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Use a custom data directory:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Fancycoin</source>
+        <translation>Fancycoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Помилка</translation>
+    </message>
+    <message>
+        <source>GB of free space available</source>
+        <translation>ГБ вільного простору доступно</translation>
+    </message>
+    <message>
+        <source>(of %1GB needed)</source>
         <translation type="unfinished"/>
     </message>
 </context>
 <context>
-    <name>MessagePage</name>
+    <name>OpenURIDialog</name>
     <message>
-        <location filename="../forms/messagepage.ui" line="14"/>
-        <source>Sign Message</source>
+        <source>Open URI</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../forms/messagepage.ui" line="20"/>
-        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>Open payment request from URI or file</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../forms/messagepage.ui" line="38"/>
-        <source>The address to sign the message with  (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>URI:</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../forms/messagepage.ui" line="48"/>
-        <source>Choose adress from address book</source>
-        <translation>Вибрати адресу з адресної книги</translation>
-    </message>
-    <message>
-        <location filename="../forms/messagepage.ui" line="58"/>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <location filename="../forms/messagepage.ui" line="71"/>
-        <source>Paste address from clipboard</source>
-        <translation>Вставити адресу</translation>
-    </message>
-    <message>
-        <location filename="../forms/messagepage.ui" line="81"/>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <location filename="../forms/messagepage.ui" line="93"/>
-        <source>Enter the message you want to sign here</source>
-        <translation>Введіть повідомлення, яке ви хочете підписати тут</translation>
-    </message>
-    <message>
-        <location filename="../forms/messagepage.ui" line="128"/>
-        <source>Copy the current signature to the system clipboard</source>
+        <source>Select payment request file</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../forms/messagepage.ui" line="131"/>
-        <source>&amp;Copy Signature</source>
+        <source>Select payment request file to open</source>
         <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../forms/messagepage.ui" line="142"/>
-        <source>Reset all sign message fields</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../forms/messagepage.ui" line="145"/>
-        <source>Clear &amp;All</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../messagepage.cpp" line="31"/>
-        <source>Click &quot;Sign Message&quot; to get signature</source>
-        <translation>Натисніть кнопку &quot;Підписати повідомлення&quot;, для отриманя підпису</translation>
-    </message>
-    <message>
-        <location filename="../forms/messagepage.ui" line="114"/>
-        <source>Sign a message to prove you own this address</source>
-        <translation>Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
-    </message>
-    <message>
-        <location filename="../forms/messagepage.ui" line="117"/>
-        <source>&amp;Sign Message</source>
-        <translation>&amp;Підписати повідомлення</translation>
-    </message>
-    <message>
-        <location filename="../messagepage.cpp" line="30"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Введіть адресу Bitcoin (наприклад 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
-        <location filename="../messagepage.cpp" line="83"/>
-        <location filename="../messagepage.cpp" line="90"/>
-        <location filename="../messagepage.cpp" line="105"/>
-        <location filename="../messagepage.cpp" line="117"/>
-        <source>Error signing</source>
-        <translation>Помилка при підписуванні</translation>
-    </message>
-    <message>
-        <location filename="../messagepage.cpp" line="83"/>
-        <source>%1 is not a valid address.</source>
-        <translation>&quot;%1&quot; не є коректною адресою в мережі Bitcoin.</translation>
-    </message>
-    <message>
-        <location filename="../messagepage.cpp" line="90"/>
-        <source>%1 does not refer to a key.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../messagepage.cpp" line="105"/>
-        <source>Private key for %1 is not available.</source>
-        <translation>Приватний ключ для %1 недоступний.</translation>
-    </message>
-    <message>
-        <location filename="../messagepage.cpp" line="117"/>
-        <source>Sign failed</source>
-        <translation>Не вдалось підписати</translation>
-    </message>
-</context>
-<context>
-    <name>NetworkOptionsPage</name>
-    <message>
-        <location filename="../optionsdialog.cpp" line="345"/>
-        <source>Network</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="347"/>
-        <source>Map port using &amp;UPnP</source>
-        <translation>Відображення порту через &amp;UPnP</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="348"/>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично відкривати порт для клієнту біткоін на роутері. Працює лише якщо ваш роутер підтримує UPnP і ця функція увімкнена.</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="351"/>
-        <source>&amp;Connect through SOCKS4 proxy:</source>
-        <translation>Підключатись через &amp;SOCKS4-проксі:</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="352"/>
-        <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Підключатись до мережі Bitcoin через SOCKS4-проксі (наприклад при використанні Tor) </translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="357"/>
-        <source>Proxy &amp;IP:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="366"/>
-        <source>&amp;Port:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="363"/>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>IP-адреса проксі-сервера (наприклад 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="372"/>
-        <source>Port of the proxy (e.g. 1234)</source>
-        <translation>Порт проксі-сервера (наприклад 1234)</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
-        <location filename="../optionsdialog.cpp" line="135"/>
         <source>Options</source>
         <translation>Параметри</translation>
+    </message>
+    <message>
+        <source>&amp;Main</source>
+        <translation>&amp;Головні</translation>
+    </message>
+    <message>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
+        <translation>Оплата додаткових транзакцій за Кб, що допомагає переконатися, що ваші транзакції обробляються швидко. Велика частина операцій проводиться 1 Кб.</translation>
+    </message>
+    <message>
+        <source>Pay transaction &amp;fee</source>
+        <translation>Заплатити комісі&amp;ю</translation>
+    </message>
+    <message>
+        <source>Automatically start Fancycoin after logging in to the system.</source>
+        <translation>Автоматично запускати гаманець при вході до системи.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Fancycoin on system login</source>
+        <translation>&amp;Запускати гаманець при вході в систему</translation>
+    </message>
+    <message>
+        <source>Size of &amp;database cache</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Number of script &amp;verification threads</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Connect to the Fancycoin network through a SOCKS proxy.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Reset all client options to default.</source>
+        <translation>Скинути всі параметри клієнта на типові.</translation>
+    </message>
+    <message>
+        <source>&amp;Reset Options</source>
+        <translation>Скинути параметри</translation>
+    </message>
+    <message>
+        <source>&amp;Network</source>
+        <translation>&amp;Мережа</translation>
+    </message>
+    <message>
+        <source>(0 = auto, &lt;0 = leave that many cores free)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>W&amp;allet</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Expert</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Enable coin &amp;control features</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Automatically open the Fancycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично відкривати порт для клієнту біткоін на роутері. Працює лише якщо ваш роутер підтримує UPnP і ця функція увімкнена.</translation>
+    </message>
+    <message>
+        <source>Map port using &amp;UPnP</source>
+        <translation>Відображення порту через &amp;UPnP</translation>
+    </message>
+    <message>
+        <source>Proxy &amp;IP:</source>
+        <translation>&amp;IP проксі:</translation>
+    </message>
+    <message>
+        <source>&amp;Port:</source>
+        <translation>&amp;Порт:</translation>
+    </message>
+    <message>
+        <source>Port of the proxy (e.g. 9050)</source>
+        <translation>Порт проксі-сервера (наприклад 9050)</translation>
+    </message>
+    <message>
+        <source>SOCKS &amp;Version:</source>
+        <translation>SOCKS версії:</translation>
+    </message>
+    <message>
+        <source>SOCKS version of the proxy (e.g. 5)</source>
+        <translation>Версія SOCKS-проксі (наприклад 5)</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;Вікно</translation>
+    </message>
+    <message>
+        <source>Show only a tray icon after minimizing the window.</source>
+        <translation>Показувати лише іконку в треї після згортання вікна.</translation>
+    </message>
+    <message>
+        <source>&amp;Minimize to the tray instead of the taskbar</source>
+        <translation>Мінімізувати &amp;у трей</translation>
+    </message>
+    <message>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
+        <translation>Згортати замість закриття. Якщо ця опція включена, програма закриється лише після вибору відповідного пункту в меню.</translation>
+    </message>
+    <message>
+        <source>M&amp;inimize on close</source>
+        <translation>Згортати замість закритт&amp;я</translation>
+    </message>
+    <message>
+        <source>&amp;Display</source>
+        <translation>&amp;Відображення</translation>
+    </message>
+    <message>
+        <source>User Interface &amp;language:</source>
+        <translation>Мова інтерфейсу користувача:</translation>
+    </message>
+    <message>
+        <source>The user interface language can be set here. This setting will take effect after restarting Fancycoin.</source>
+        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску Fancycoin.</translation>
+    </message>
+    <message>
+        <source>&amp;Unit to show amounts in:</source>
+        <translation>В&amp;имірювати монети в:</translation>
+    </message>
+    <message>
+        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
+        <translation>Виберіть одиницю вимірювання монет, яка буде відображатись в гаманці та при відправленні.</translation>
+    </message>
+    <message>
+        <source>Whether to show Fancycoin addresses in the transaction list or not.</source>
+        <translation>Незалежно від того, щоб показати Fancycoin адреси в списку транзакцій чи ні.</translation>
+    </message>
+    <message>
+        <source>&amp;Display addresses in transaction list</source>
+        <translation>&amp;Відображати адресу в списку транзакцій</translation>
+    </message>
+    <message>
+        <source>Whether to show coin control features or not.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>&amp;OK</source>
+        <translation>&amp;Гаразд</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;Скасувати</translation>
+    </message>
+    <message>
+        <source>default</source>
+        <translation>типово</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Confirm options reset</source>
+        <translation>Підтвердження скидання параметрів</translation>
+    </message>
+    <message>
+        <source>Client restart required to activate changes.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Client will be shutdown, do you want to proceed?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>This change would require a client restart.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>The supplied proxy address is invalid.</source>
+        <translation>Невірно вказано адресу проксі.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
-        <location filename="../forms/overviewpage.ui" line="14"/>
         <source>Form</source>
         <translation>Форма</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="47"/>
-        <location filename="../forms/overviewpage.ui" line="204"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished"/>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fancycoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Показана інформація вже може бути застарілою. Ваш гаманець буде автоматично синхронізовано з мережею Fancycoin після встановлення підключення, але цей процес ще не завершено.</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="89"/>
-        <source>Balance:</source>
-        <translation>Баланс:</translation>
-    </message>
-    <message>
-        <location filename="../forms/overviewpage.ui" line="147"/>
-        <source>Number of transactions:</source>
-        <translation>Кількість переказів:</translation>
-    </message>
-    <message>
-        <location filename="../forms/overviewpage.ui" line="118"/>
-        <source>Unconfirmed:</source>
-        <translation>Непідтверджені:</translation>
-    </message>
-    <message>
-        <location filename="../forms/overviewpage.ui" line="40"/>
         <source>Wallet</source>
+        <translation>Гаманець</translation>
+    </message>
+    <message>
+        <source>Available:</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="197"/>
+        <source>Your current spendable balance</source>
+        <translation>Ваш поточний баланс расходуемого</translation>
+    </message>
+    <message>
+        <source>Pending:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <translation>Всього угод, які ще мають бути підтверджені, і до цих пір не враховуються в расходуемого балансу</translation>
+    </message>
+    <message>
+        <source>Immature:</source>
+        <translation>незрілі:</translation>
+    </message>
+    <message>
+        <source>Mined balance that has not yet matured</source>
+        <translation>Замінований баланс, який ще не дозрів</translation>
+    </message>
+    <message>
+        <source>Total:</source>
+        <translation>всього:</translation>
+    </message>
+    <message>
+        <source>Your current total balance</source>
+        <translation>Ваше поточне Сукупний баланс</translation>
+    </message>
+    <message>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Недавні перекази&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Недавні транзакції&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="105"/>
-        <source>Your current balance</source>
-        <translation>Ваш поточний баланс</translation>
-    </message>
-    <message>
-        <location filename="../forms/overviewpage.ui" line="134"/>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Загальна сума всіх переказів, які ще не підтверджені, та до сих пір не враховуються в загальному балансі</translation>
-    </message>
-    <message>
-        <location filename="../forms/overviewpage.ui" line="154"/>
-        <source>Total number of transactions in wallet</source>
-        <translation>Загальна кількість переказів в гаманці</translation>
-    </message>
-    <message>
-        <location filename="../overviewpage.cpp" line="110"/>
-        <location filename="../overviewpage.cpp" line="111"/>
         <source>out of sync</source>
+        <translation>не синхронізовано</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <source>URI handling</source>
+        <translation>Обробка URI</translation>
+    </message>
+    <message>
+        <source>URI can not be parsed! This can be caused by an invalid Fancycoin address or malformed URI parameters.</source>
+        <translation>Неможливо обробити URI! Це може бути викликано неправильною Bitcoin-адресою, чи невірними параметрами URI.</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Cannot start Fancycoin: click-to-pay handler</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Net manager warning</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Your active proxy doesn&apos;t support SOCKS5, which is required for payment requests via proxy.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Payment request file can not be read or processed! This can be caused by an invalid payment request file.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Error communicating with %1: %2</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Payment request can not be parsed or processed!</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Bad response from server %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Payment acknowledged</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Network request error</source>
         <translation type="unfinished"/>
     </message>
 </context>
 <context>
-    <name>QRCodeDialog</name>
+    <name>QObject</name>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="14"/>
-        <source>QR Code Dialog</source>
+        <source>Fancycoin</source>
+        <translation>Fancycoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="32"/>
-        <source>QR Code</source>
-        <translation>QR-Код</translation>
-    </message>
-    <message>
-        <location filename="../forms/qrcodedialog.ui" line="55"/>
-        <source>Request Payment</source>
-        <translation>Запросити Платіж</translation>
-    </message>
-    <message>
-        <location filename="../forms/qrcodedialog.ui" line="70"/>
-        <source>Amount:</source>
-        <translation>Кількість:</translation>
-    </message>
-    <message>
-        <location filename="../forms/qrcodedialog.ui" line="105"/>
-        <source>BTC</source>
-        <translation>BTC</translation>
-    </message>
-    <message>
-        <location filename="../forms/qrcodedialog.ui" line="121"/>
-        <source>Label:</source>
-        <translation>Мітка:</translation>
-    </message>
-    <message>
-        <location filename="../forms/qrcodedialog.ui" line="144"/>
-        <source>Message:</source>
-        <translation>Повідомлення:</translation>
-    </message>
-    <message>
-        <location filename="../forms/qrcodedialog.ui" line="186"/>
-        <source>&amp;Save As...</source>
-        <translation>&amp;Зберегти як...</translation>
-    </message>
-    <message>
-        <location filename="../qrcodedialog.cpp" line="45"/>
-        <source>Error encoding URI into QR Code.</source>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="63"/>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
+        <source>Error: Invalid combination of -regtest and -testnet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="120"/>
+        <source>Fancycoin Core didn&apos;t yet exit safely...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Enter a Fancycoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Введіть адресу Fancycoin (наприклад 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+</context>
+<context>
+    <name>QRImageWidget</name>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Зберегти зображення...</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Image</source>
+        <translation>&amp;Копіювати зображення</translation>
+    </message>
+    <message>
         <source>Save QR Code</source>
-        <translation type="unfinished"/>
+        <translation>Зберегти QR-код</translation>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="120"/>
-        <source>PNG Images (*.png)</source>
-        <translation>PNG-зображення (*.png)</translation>
+        <source>PNG Image (*.png)</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Bitcoin debug window</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../forms/rpcconsole.ui" line="46"/>
         <source>Client name</source>
-        <translation type="unfinished"/>
+        <translation>Назва клієнту</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="56"/>
-        <location filename="../forms/rpcconsole.ui" line="79"/>
-        <location filename="../forms/rpcconsole.ui" line="102"/>
-        <location filename="../forms/rpcconsole.ui" line="125"/>
-        <location filename="../forms/rpcconsole.ui" line="161"/>
-        <location filename="../forms/rpcconsole.ui" line="214"/>
-        <location filename="../forms/rpcconsole.ui" line="237"/>
-        <location filename="../forms/rpcconsole.ui" line="260"/>
-        <location filename="../rpcconsole.cpp" line="245"/>
         <source>N/A</source>
-        <translation type="unfinished"/>
+        <translation>Н/Д</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="69"/>
         <source>Client version</source>
-        <translation type="unfinished"/>
+        <translation>Версія клієнту</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="24"/>
         <source>&amp;Information</source>
+        <translation>&amp;Інформація</translation>
+    </message>
+    <message>
+        <source>Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="39"/>
-        <source>Client</source>
+        <source>General</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="115"/>
+        <source>Using OpenSSL version</source>
+        <translation>Використовується OpenSSL версії</translation>
+    </message>
+    <message>
         <source>Startup time</source>
-        <translation type="unfinished"/>
+        <translation>Час запуску</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="144"/>
         <source>Network</source>
-        <translation type="unfinished"/>
+        <translation>Мережа</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="151"/>
+        <source>Name</source>
+        <translation>Ім’я</translation>
+    </message>
+    <message>
         <source>Number of connections</source>
-        <translation type="unfinished"/>
+        <translation>Кількість підключень</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="174"/>
-        <source>On testnet</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../forms/rpcconsole.ui" line="197"/>
         <source>Block chain</source>
-        <translation type="unfinished"/>
+        <translation>Ланцюг блоків</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="204"/>
         <source>Current number of blocks</source>
-        <translation type="unfinished"/>
+        <translation>Поточне число блоків</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="227"/>
         <source>Estimated total blocks</source>
-        <translation type="unfinished"/>
+        <translation>Розрахункове число блоків</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="250"/>
         <source>Last block time</source>
-        <translation type="unfinished"/>
+        <translation>Час останнього блоку</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="292"/>
-        <source>Debug logfile</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../forms/rpcconsole.ui" line="299"/>
-        <source>Open the Bitcoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../forms/rpcconsole.ui" line="302"/>
         <source>&amp;Open</source>
-        <translation type="unfinished"/>
+        <translation>Відкрити</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="323"/>
         <source>&amp;Console</source>
+        <translation>Консоль</translation>
+    </message>
+    <message>
+        <source>&amp;Network Traffic</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="92"/>
+        <source>&amp;Clear</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Totals</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>In:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Out:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <source>Build date</source>
-        <translation type="unfinished"/>
+        <translation>Дата збирання</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="372"/>
+        <source>Debug log file</source>
+        <translation>Файл звіту зневадження</translation>
+    </message>
+    <message>
+        <source>Open the Fancycoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Відкрийте налагодження файл журналу Fancycoin з поточного каталогу даних. Це може зайняти кілька секунд для великих файлів журналів.</translation>
+    </message>
+    <message>
         <source>Clear console</source>
-        <translation type="unfinished"/>
+        <translation>Очистити консоль</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="212"/>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation type="unfinished"/>
+        <source>Welcome to the Fancycoin RPC console.</source>
+        <translation>Вітаємо у консолі Fancycoin RPC.</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="213"/>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Використовуйте стрілки вгору вниз для навігації по історії, і &lt;b&gt;Ctrl-L&lt;/b&gt; для очищення екрана.</translation>
+    </message>
+    <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Наберіть &lt;b&gt;help&lt;/b&gt; для перегляду доступних команд.</translation>
+    </message>
+    <message>
+        <source>%1 B</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="214"/>
-        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <source>%1 KB</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>%1 h %2 m</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>&amp;Кількість:</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Мітка:</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>&amp;Повідомлення:</translation>
+    </message>
+    <message>
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Fancycoin network.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>An optional label to associate with the new receiving address.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>Очистити всі поля в формі</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Очистити</translation>
+    </message>
+    <message>
+        <source>Requested payments history</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>&amp;Request payment</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Show the selected request (does the same as double clicking an entry)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Remove the selected entries from the list</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Скопіювати мітку</translation>
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Копіювати кількість</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>QR Code</source>
+        <translation>QR-Код</translation>
+    </message>
+    <message>
+        <source>Copy &amp;URI</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Зберегти зображення...</translation>
+    </message>
+    <message>
+        <source>Request payment to %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Payment information</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>URI</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адреса</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Кількість</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Назва</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Повідомлення</translation>
+    </message>
+    <message>
+        <source>Resulting URI too long, try to reduce the text for label / message.</source>
+        <translation>Кінцевий URI занадто довгий, спробуйте зменшити текст для мітки / повідомлення.</translation>
+    </message>
+    <message>
+        <source>Error encoding URI into QR Code.</source>
+        <translation>Помилка при кодуванні URI в QR-код.</translation>
+    </message>
+</context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Назва</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Повідомлення</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Кількість</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(немає назви)</translation>
+    </message>
+    <message>
+        <source>(no message)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>(no amount)</source>
         <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="14"/>
-        <location filename="../sendcoinsdialog.cpp" line="122"/>
-        <location filename="../sendcoinsdialog.cpp" line="127"/>
-        <location filename="../sendcoinsdialog.cpp" line="132"/>
-        <location filename="../sendcoinsdialog.cpp" line="137"/>
-        <location filename="../sendcoinsdialog.cpp" line="143"/>
-        <location filename="../sendcoinsdialog.cpp" line="148"/>
-        <location filename="../sendcoinsdialog.cpp" line="153"/>
         <source>Send Coins</source>
         <translation>Відправити</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="64"/>
+        <source>Coin Control Features</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Inputs...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>automatically selected</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Insufficient funds!</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Кількість:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Low Output:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Custom change address</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <source>Send to multiple recipients at once</source>
         <translation>Відправити на декілька адрес</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="67"/>
-        <source>&amp;Add Recipient</source>
-        <translation type="unfinished"/>
+        <source>Add &amp;Recipient</source>
+        <translation>Дод&amp;ати одержувача</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="84"/>
-        <source>Remove all transaction fields</source>
-        <translation>Видалити всі поля транзакції</translation>
+        <source>Clear all fields of the form.</source>
+        <translation>Очистити всі поля в формі</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="87"/>
         <source>Clear &amp;All</source>
-        <translation type="unfinished"/>
+        <translation>Очистити &amp;все</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="106"/>
         <source>Balance:</source>
         <translation>Баланс:</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="113"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
-    </message>
-    <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="144"/>
         <source>Confirm the send action</source>
         <translation>Підтвердити відправлення</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="147"/>
-        <source>&amp;Send</source>
+        <source>S&amp;end</source>
         <translation>&amp;Відправити</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="94"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; адресату %2 (%3)</translation>
-    </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="99"/>
         <source>Confirm send coins</source>
         <translation>Підтвердіть відправлення</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="100"/>
-        <source>Are you sure you want to send %1?</source>
-        <translation>Ви впевнені що хочете відправити %1</translation>
+        <source>%1 to %2</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="100"/>
-        <source> and </source>
-        <translation> і </translation>
+        <source>Copy quantity</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="123"/>
-        <source>The recepient address is not valid, please recheck.</source>
-        <translation>Адреса отримувача невірна, будьласка перепровірте.</translation>
+        <source>Copy amount</source>
+        <translation>Копіювати кількість</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="128"/>
+        <source>Copy fee</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Copy priority</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Copy low output</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Total Amount %1 (= %2)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>or</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation>Адреса отримувача невірна, будь ласка перепровірте.</translation>
+    </message>
+    <message>
         <source>The amount to pay must be larger than 0.</source>
         <translation>Кількість монет для відправлення повинна бути більшою 0.</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="133"/>
         <source>The amount exceeds your balance.</source>
-        <translation type="unfinished"/>
+        <translation>Кількість монет для відправлення перевищує ваш баланс.</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="138"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation type="unfinished"/>
+        <translation>Сума перевищить ваш баланс, якщо комісія %1 буде додана до вашої транзакції.</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="144"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>Знайдено адресу що дублюється. Відправлення на кожну адресу дозволяється лише один раз на кожну операцію переказу.</translation>
+    </message>
+    <message>
+        <source>Transaction creation failed!</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="149"/>
-        <source>Error: Transaction creation failed.</source>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="154"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <source>Warning: Invalid Fancycoin address</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(немає назви)</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown change address</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation>Ви впевнені, що хочете відправити?</translation>
+    </message>
+    <message>
+        <source>added as transaction fee</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Payment request expired</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
         <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="14"/>
-        <source>Form</source>
-        <translation>Форма</translation>
-    </message>
-    <message>
-        <location filename="../forms/sendcoinsentry.ui" line="29"/>
         <source>A&amp;mount:</source>
         <translation>&amp;Кількість:</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="42"/>
         <source>Pay &amp;To:</source>
         <translation>&amp;Отримувач:</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="66"/>
-        <location filename="../sendcoinsentry.cpp" line="25"/>
+        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Звернення до відправити платіж на (наприклад 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Введіть мітку для цієї адреси для додавання її в адресну книгу</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="75"/>
         <source>&amp;Label:</source>
         <translation>&amp;Мітка:</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="93"/>
-        <source>The address to send the payment to  (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Адреса для отримувача платежу (наприклад, 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Choose previously used address</source>
+        <translation>Обрати ранiш використовувану адресу</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="103"/>
-        <source>Choose address from address book</source>
-        <translation>Вибрати адресу з адресної книги</translation>
+        <source>This is a normal payment.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="113"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="120"/>
         <source>Paste address from clipboard</source>
         <translation>Вставити адресу</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="130"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="137"/>
-        <source>Remove this recipient</source>
-        <translation>Видалити цього отримувача</translation>
+        <source>Remove this entry</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../sendcoinsentry.cpp" line="26"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Введіть адресу Bitcoin (наприклад 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Message:</source>
+        <translation>Повідомлення:</translation>
+    </message>
+    <message>
+        <source>This is a verified payment request.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>A message that was attached to the Fancycoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fancycoin network.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>This is an unverified payment request.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Memo:</source>
+        <translation>Нотатка:</translation>
+    </message>
+</context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>Fancycoin Core is shutting down...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>Signatures - Sign / Verify a Message</source>
+        <translation>Підписи - Підпис / Перевірка повідомлення</translation>
+    </message>
+    <message>
+        <source>&amp;Sign Message</source>
+        <translation>&amp;Підписати повідомлення</translation>
+    </message>
+    <message>
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Ви можете зареєструватися повідомленнями зі своїми адресами, щоб довести, що ви є їх власником. Будьте обережні, щоб не підписувати що-небудь неясне, як фішинг-атак може спробувати обдурити вас в підписанні вашу особистість до них. Тільки підписати повністю докладні свідчення, користувач зобов&apos;язується.</translation>
+    </message>
+    <message>
+        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Введіть адресу Fancycoin (наприклад 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Обрати ранiш використовувану адресу</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Вставити адресу</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter the message you want to sign here</source>
+        <translation>Введіть повідомлення, яке ви хочете підписати тут</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Підпис</translation>
+    </message>
+    <message>
+        <source>Copy the current signature to the system clipboard</source>
+        <translation>Копіювати поточну сигнатуру до системного буферу обміну</translation>
+    </message>
+    <message>
+        <source>Sign the message to prove you own this Fancycoin address</source>
+        <translation>Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
+    </message>
+    <message>
+        <source>Sign &amp;Message</source>
+        <translation>&amp;Підписати повідомлення</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Скинути всі поля підпису повідомлення</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>Очистити &amp;все</translation>
+    </message>
+    <message>
+        <source>&amp;Verify Message</source>
+        <translation>Перевірити повідомлення</translation>
+    </message>
+    <message>
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>Введіть адресу підписання, повідомлення (забезпечення копіюванні розриви рядків, прогалини, вкладки і т.д. точно) і підпис нижче, щоб перевірити повідомлення. Будьте обережні, щоб не читати далі в підпис, ніж те, що в підписаному самого повідомлення, щоб уникнути обдурять нападу чоловік-в-середній.</translation>
+    </message>
+    <message>
+        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Введіть адресу Fancycoin (наприклад 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Fancycoin address</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Bitcoin-адресою</translation>
+    </message>
+    <message>
+        <source>Verify &amp;Message</source>
+        <translation>Перевірити повідомлення</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>Скинути всі поля перевірки повідомлення</translation>
+    </message>
+    <message>
+        <source>Enter a Fancycoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Введіть адресу Fancycoin (наприклад 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Click &quot;Sign Message&quot; to generate signature</source>
+        <translation>Натисніть кнопку «Підписати повідомлення», для отримання підпису</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>Введена нечинна адреса.</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>Будь ласка, перевірте адресу та спробуйте ще.</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>Введений адреса не відноситься до ключа.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>Розблокування Гаманець був скасований.</translation>
+    </message>
+    <message>
+        <source>Private key for the entered address is not available.</source>
+        <translation>Приватний ключ для введеної адреси недоступний. </translation>
+    </message>
+    <message>
+        <source>Message signing failed.</source>
+        <translation>Не вдалося підписати повідомлення.</translation>
+    </message>
+    <message>
+        <source>Message signed.</source>
+        <translation>Повідомлення підписано.</translation>
+    </message>
+    <message>
+        <source>The signature could not be decoded.</source>
+        <translation>Підпис не можливо декодувати.</translation>
+    </message>
+    <message>
+        <source>Please check the signature and try again.</source>
+        <translation>Будь ласка, перевірте підпис та спробуйте ще.</translation>
+    </message>
+    <message>
+        <source>The signature did not match the message digest.</source>
+        <translation>Підпис не відповідає дайджест повідомлення.</translation>
+    </message>
+    <message>
+        <source>Message verification failed.</source>
+        <translation>Не вдалося перевірити повідомлення.</translation>
+    </message>
+    <message>
+        <source>Message verified.</source>
+        <translation>Повідомлення перевірено.</translation>
+    </message>
+</context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+        <source>Fancycoin Core</source>
+        <translation>Fancycoin Ядро</translation>
+    </message>
+    <message>
+        <source>The Bitcoin and Fancycoin Core developers</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>[testnet]</source>
+        <translation>[тестова мережа]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    <message>
+        <source>KB/s</source>
+        <translation>КБ/с</translation>
     </message>
 </context>
 <context>
     <name>TransactionDesc</name>
     <message>
-        <location filename="../transactiondesc.cpp" line="21"/>
-        <source>Open for %1 blocks</source>
-        <translation>Відкрити для %1 блоків</translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="23"/>
         <source>Open until %1</source>
         <translation>Відкрити до %1</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="29"/>
-        <source>%1/offline?</source>
-        <translation>%1/поза інтернетом?</translation>
+        <source>conflicted</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="31"/>
+        <source>%1/offline</source>
+        <translation>%1/поза інтернетом</translation>
+    </message>
+    <message>
         <source>%1/unconfirmed</source>
         <translation>%1/не підтверджено</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="33"/>
         <source>%1 confirmations</source>
         <translation>%1 підтверджень</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="51"/>
-        <source>&lt;b&gt;Status:&lt;/b&gt; </source>
-        <translation>&lt;b&gt;Статус:&lt;/b&gt;</translation>
+        <source>Status</source>
+        <translation>Статус</translation>
+    </message>
+    <message numerus="yes">
+        <source>, broadcast through %n node(s)</source>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="56"/>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Джерело</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Згенеровано</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Відправник</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Отримувач</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>Власна адреса</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>Мітка</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>Кредит</translation>
+    </message>
+    <message numerus="yes">
+        <source>matures in %n more block(s)</source>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>не прийнято</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>Дебет</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Комісія за транзакцію</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>Загальна сума</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Повідомлення</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Коментар</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>ID транзакції</translation>
+    </message>
+    <message>
+        <source>Merchant</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Debug information</source>
+        <translation>Отладочна інформація</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>Транзакція</translation>
+    </message>
+    <message>
+        <source>Inputs</source>
+        <translation>витрати</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Кількість</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>true</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>false</translation>
+    </message>
+    <message>
         <source>, has not been successfully broadcast yet</source>
         <translation>, ще не було успішно розіслано</translation>
     </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="58"/>
-        <source>, broadcast through %1 node</source>
-        <translation>, розіслано через %1 вузол</translation>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="60"/>
-        <source>, broadcast through %1 nodes</source>
-        <translation>, розіслано через %1 вузлів</translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="64"/>
-        <source>&lt;b&gt;Date:&lt;/b&gt; </source>
-        <translation>&lt;b&gt;Дата:&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="71"/>
-        <source>&lt;b&gt;Source:&lt;/b&gt; Generated&lt;br&gt;</source>
-        <translation>&lt;b&gt;Джерело:&lt;/b&gt; згенеровано&lt;br&gt;</translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="77"/>
-        <location filename="../transactiondesc.cpp" line="94"/>
-        <source>&lt;b&gt;From:&lt;/b&gt; </source>
-        <translation>&lt;b&gt;Відправник:&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="94"/>
         <source>unknown</source>
         <translation>невідомий</translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="95"/>
-        <location filename="../transactiondesc.cpp" line="118"/>
-        <location filename="../transactiondesc.cpp" line="178"/>
-        <source>&lt;b&gt;To:&lt;/b&gt; </source>
-        <translation>&lt;b&gt;Одержувач:&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="98"/>
-        <source> (yours, label: </source>
-        <translation> (Ваша, мітка: </translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="100"/>
-        <source> (yours)</source>
-        <translation> (ваша)</translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="136"/>
-        <location filename="../transactiondesc.cpp" line="150"/>
-        <location filename="../transactiondesc.cpp" line="195"/>
-        <location filename="../transactiondesc.cpp" line="212"/>
-        <source>&lt;b&gt;Credit:&lt;/b&gt; </source>
-        <translation>&lt;b&gt;Кредит:&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="138"/>
-        <source>(%1 matures in %2 more blocks)</source>
-        <translation>(%1 «дозріє» через %2 блоків)</translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="142"/>
-        <source>(not accepted)</source>
-        <translation>(не прийнято)</translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="186"/>
-        <location filename="../transactiondesc.cpp" line="194"/>
-        <location filename="../transactiondesc.cpp" line="209"/>
-        <source>&lt;b&gt;Debit:&lt;/b&gt; </source>
-        <translation>&lt;b&gt;Дебет:&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="200"/>
-        <source>&lt;b&gt;Transaction fee:&lt;/b&gt; </source>
-        <translation>&lt;b&gt;Комісія за переказ:&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="216"/>
-        <source>&lt;b&gt;Net amount:&lt;/b&gt; </source>
-        <translation>&lt;b&gt;Загальна сума:&lt;/b&gt; </translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="222"/>
-        <source>Message:</source>
-        <translation>Повідомлення:</translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="224"/>
-        <source>Comment:</source>
-        <translation>Коментар:</translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="226"/>
-        <source>Transaction ID:</source>
-        <translation>ID транзакції:</translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="229"/>
-        <source>Generated coins must wait 120 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Після генерації монет, потрібно зачекати 120 блоків, перш ніж їх можна буде використати.  Коли ви згенерували цей блок, його було відправлено в мережу для того, щоб він був доданий до ланцюжка блоків.  Якщо ця процедура не вдасться, статус буде змінено на «не підтверджено» і ви не зможете потратити згенеровані монету.  Таке може статись, якщо хтось інший згенерував блок на декілька секунд раніше.</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
-        <location filename="../forms/transactiondescdialog.ui" line="14"/>
         <source>Transaction details</source>
-        <translation>Деталі переказів</translation>
+        <translation>Деталі транзакції</translation>
     </message>
     <message>
-        <location filename="../forms/transactiondescdialog.ui" line="20"/>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Даний діалог показує детальну статистику по вибраному переказу</translation>
+        <translation>Даний діалог показує детальну статистику по вибраній транзакції</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="226"/>
         <source>Date</source>
         <translation>Дата</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="226"/>
         <source>Type</source>
         <translation>Тип</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="226"/>
         <source>Address</source>
         <translation>Адреса</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="226"/>
         <source>Amount</source>
         <translation>Кількість</translation>
     </message>
+    <message>
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation type="unfinished"/>
+    </message>
     <message numerus="yes">
-        <location filename="../transactiontablemodel.cpp" line="281"/>
-        <source>Open for %n block(s)</source>
-        <translation><numerusform>Відкрити для %n блоку</numerusform><numerusform>Відкрити для %n блоків</numerusform><numerusform>Відкрити для %n блоків</numerusform></translation>
+        <source>Open for %n more block(s)</source>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="284"/>
         <source>Open until %1</source>
         <translation>Відкрити до %1</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="287"/>
-        <source>Offline (%1 confirmations)</source>
-        <translation>Поза інтернетом (%1 підтверджень)</translation>
-    </message>
-    <message>
-        <location filename="../transactiontablemodel.cpp" line="290"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>Непідтверджено (%1 із %2 підтверджень)</translation>
-    </message>
-    <message>
-        <location filename="../transactiontablemodel.cpp" line="293"/>
         <source>Confirmed (%1 confirmations)</source>
         <translation>Підтверджено (%1 підтверджень)</translation>
     </message>
-    <message numerus="yes">
-        <location filename="../transactiontablemodel.cpp" line="301"/>
-        <source>Mined balance will be available in %n more blocks</source>
-        <translation><numerusform>Добутими монетами можна буде скористатись через %n блок</numerusform><numerusform>Добутими монетами можна буде скористатись через %n блоки</numerusform><numerusform>Добутими монетами можна буде скористатись через %n блоків</numerusform></translation>
-    </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="307"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
         <translation>Цей блок не був отриманий жодними іншими вузлами і, ймовірно, не буде прийнятий!</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="310"/>
         <source>Generated but not accepted</source>
         <translation>Згенеровано, але не підтверджено</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="353"/>
+        <source>Offline</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Confirming (%1 of %2 recommended confirmations)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Conflicted</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <source>Received with</source>
         <translation>Отримано</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="355"/>
         <source>Received from</source>
         <translation>Отримано від</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="358"/>
         <source>Sent to</source>
         <translation>Відправлено</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="360"/>
         <source>Payment to yourself</source>
         <translation>Відправлено собі</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="362"/>
         <source>Mined</source>
         <translation>Добуто</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="400"/>
         <source>(n/a)</source>
         <translation>(недоступно)</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="599"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Статус переказу. Наведіть вказівник на це поле, щоб показати кількість підтверджень.</translation>
+        <translation>Статус транзакції. Наведіть вказівник на це поле, щоб показати кількість підтверджень.</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="601"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>Дата і час, коли переказ було отримано.</translation>
+        <translation>Дата і час, коли транзакцію було отримано.</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="603"/>
         <source>Type of transaction.</source>
-        <translation>Тип переказу.</translation>
+        <translation>Тип транзакції.</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="605"/>
         <source>Destination address of transaction.</source>
-        <translation>Адреса отримувача</translation>
+        <translation>Адреса отримувача транзакції.</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="607"/>
         <source>Amount removed from or added to balance.</source>
         <translation>Сума, додана чи знята з балансу.</translation>
     </message>
@@ -1694,847 +2402,978 @@ Address: %4
 <context>
     <name>TransactionView</name>
     <message>
-        <location filename="../transactionview.cpp" line="55"/>
-        <location filename="../transactionview.cpp" line="71"/>
         <source>All</source>
         <translation>Всі</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="56"/>
         <source>Today</source>
         <translation>Сьогодні</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="57"/>
         <source>This week</source>
         <translation>На цьому тижні</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="58"/>
         <source>This month</source>
         <translation>На цьому місяці</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="59"/>
         <source>Last month</source>
         <translation>Минулого місяця</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="60"/>
         <source>This year</source>
         <translation>Цього року</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="61"/>
         <source>Range...</source>
-        <translation>Проміжок</translation>
+        <translation>Проміжок...</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="72"/>
         <source>Received with</source>
         <translation>Отримані на</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="74"/>
         <source>Sent to</source>
         <translation>Відправлені на</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="76"/>
         <source>To yourself</source>
         <translation>Відправлені собі</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="77"/>
         <source>Mined</source>
         <translation>Добуті</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="78"/>
         <source>Other</source>
         <translation>Інше</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="85"/>
         <source>Enter address or label to search</source>
         <translation>Введіть адресу чи мітку для пошуку</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="92"/>
         <source>Min amount</source>
         <translation>Мінімальна сума</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="126"/>
         <source>Copy address</source>
         <translation>Скопіювати адресу</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="127"/>
         <source>Copy label</source>
         <translation>Скопіювати мітку</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="128"/>
         <source>Copy amount</source>
         <translation>Копіювати кількість</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="129"/>
+        <source>Copy transaction ID</source>
+        <translation>Копіювати ID транзакції </translation>
+    </message>
+    <message>
         <source>Edit label</source>
         <translation>Редагувати мітку</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="130"/>
         <source>Show transaction details</source>
+        <translation>Показати деталі транзакції</translation>
+    </message>
+    <message>
+        <source>Export Transaction History</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="270"/>
-        <source>Export Transaction Data</source>
-        <translation>Експортувати дані переказів</translation>
+        <source>Exporting Failed</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="271"/>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Exporting Successful</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <source>Comma separated file (*.csv)</source>
         <translation>Файли, розділені комою (*.csv)</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="279"/>
         <source>Confirmed</source>
         <translation>Підтверджені</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="280"/>
         <source>Date</source>
         <translation>Дата</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="281"/>
         <source>Type</source>
         <translation>Тип</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="282"/>
         <source>Label</source>
         <translation>Мітка</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="283"/>
         <source>Address</source>
         <translation>Адреса</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="284"/>
         <source>Amount</source>
         <translation>Кількість</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="285"/>
         <source>ID</source>
         <translation>Ідентифікатор</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="289"/>
-        <source>Error exporting</source>
-        <translation>Помилка експорту</translation>
-    </message>
-    <message>
-        <location filename="../transactionview.cpp" line="289"/>
-        <source>Could not write to file %1.</source>
-        <translation>Неможливо записати у файл %1</translation>
-    </message>
-    <message>
-        <location filename="../transactionview.cpp" line="384"/>
         <source>Range:</source>
         <translation>Діапазон від:</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="392"/>
         <source>to</source>
         <translation>до</translation>
     </message>
 </context>
 <context>
-    <name>VerifyMessageDialog</name>
+    <name>WalletFrame</name>
     <message>
-        <location filename="../forms/verifymessagedialog.ui" line="14"/>
-        <source>Verify Signed Message</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../forms/verifymessagedialog.ui" line="20"/>
-        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Bitcoin address used to sign the message.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../forms/verifymessagedialog.ui" line="62"/>
-        <source>Verify a message and obtain the Bitcoin address used to sign the message</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../forms/verifymessagedialog.ui" line="65"/>
-        <source>&amp;Verify Message</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../forms/verifymessagedialog.ui" line="79"/>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Копіювати виділену адресу в буфер обміну</translation>
-    </message>
-    <message>
-        <location filename="../forms/verifymessagedialog.ui" line="82"/>
-        <source>&amp;Copy Address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../forms/verifymessagedialog.ui" line="93"/>
-        <source>Reset all verify message fields</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../forms/verifymessagedialog.ui" line="96"/>
-        <source>Clear &amp;All</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../verifymessagedialog.cpp" line="28"/>
-        <source>Enter Bitcoin signature</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../verifymessagedialog.cpp" line="29"/>
-        <source>Click &quot;Verify Message&quot; to obtain address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../verifymessagedialog.cpp" line="55"/>
-        <location filename="../verifymessagedialog.cpp" line="62"/>
-        <source>Invalid Signature</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../verifymessagedialog.cpp" line="55"/>
-        <source>The signature could not be decoded. Please check the signature and try again.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../verifymessagedialog.cpp" line="62"/>
-        <source>The signature did not match the message digest. Please check the signature and try again.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../verifymessagedialog.cpp" line="72"/>
-        <source>Address not found in address book.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../verifymessagedialog.cpp" line="72"/>
-        <source>Address found in address book: %1</source>
+        <source>No wallet has been loaded.</source>
         <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="158"/>
-        <source>Sending...</source>
-        <translation>Відправка...</translation>
+        <source>Send Coins</source>
+        <translation>Відправити</translation>
     </message>
 </context>
 <context>
-    <name>WindowOptionsPage</name>
+    <name>WalletView</name>
     <message>
-        <location filename="../optionsdialog.cpp" line="313"/>
-        <source>Window</source>
+        <source>&amp;Export</source>
+        <translation>&amp; Експорт</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Експортувати дані з поточної вкладки в файл</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Зробити резервне копіювання гаманця</translation>
+    </message>
+    <message>
+        <source>Wallet Data (*.dat)</source>
+        <translation>Данi гаманця (*.dat)</translation>
+    </message>
+    <message>
+        <source>Backup Failed</source>
+        <translation>Помилка резервного копіювання</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the wallet data to %1.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="316"/>
-        <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>Мінімізувати &amp;у трей</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="317"/>
-        <source>Show only a tray icon after minimizing the window</source>
-        <translation>Показувати лише іконку в треї після згортання вікна</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="320"/>
-        <source>M&amp;inimize on close</source>
+        <source>The wallet data was successfully saved to %1.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="321"/>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Згортати замість закриття. Якщо ця опція включена, програма закриється лише після вибору відповідного пункту в меню.</translation>
+        <source>Backup Successful</source>
+        <translation>Успішне створення резервної копії</translation>
     </message>
 </context>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="43"/>
-        <source>Bitcoin version</source>
-        <translation>Версія</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="44"/>
         <source>Usage:</source>
-        <translation>Вкористання:</translation>
+        <translation>Використання:</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="45"/>
-        <source>Send command to -server or bitcoind</source>
-        <translation>Відправити команду серверу -server чи демону
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="46"/>
         <source>List commands</source>
-        <translation>Список команд
-</translation>
+        <translation>Список команд</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>Get help for a command</source>
-        <translation>Отримати довідку по команді
-</translation>
+        <translation>Отримати довідку по команді</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="49"/>
         <source>Options:</source>
-        <translation>Параметри:
-</translation>
+        <translation>Параметри:</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="50"/>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Вкажіть файл конфігурації (за промовчуванням: bitcoin.conf)
-</translation>
+        <source>Specify configuration file (default: Fancycoin.conf)</source>
+        <translation>Вкажіть файл конфігурації (типово: Fancycoin.conf)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="51"/>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Вкажіть pid-файл (за промовчуванням: bitcoind.pid)
-</translation>
+        <source>Specify pid file (default: Fancycoind.pid)</source>
+        <translation>Вкажіть pid-файл (типово: Fancycoind.pid)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="52"/>
-        <source>Generate coins</source>
-        <translation>Генерувати монети
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="53"/>
-        <source>Don&apos;t generate coins</source>
-        <translation>Не генерувати монети
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="54"/>
         <source>Specify data directory</source>
-        <translation>Вкажіть робочий каталог
-</translation>
+        <translation>Вкажіть робочий каталог</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="55"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="56"/>
-        <source>Set database disk log size in megabytes (default: 100)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="57"/>
-        <source>Specify connection timeout (in milliseconds)</source>
-        <translation>Вкажіть таймаут з’єднання (в мілісекундах)
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="63"/>
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Чекати на з&apos;єднання на порту (по замовченню 8333 або тестова мережа 18333)</translation>
+        <translation>Чекати на з&apos;єднання на &lt;port&gt; (типово: 8333 або тестова мережа: 18333)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="64"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Підтримувати не більше &lt;n&gt; зв&apos;язків з колегами (за замовчуванням: 125)</translation>
+        <translation>Підтримувати не більше &lt;n&gt; зв&apos;язків з колегами (типово: 125)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="66"/>
-        <source>Connect only to the specified node</source>
-        <translation>Підключитись лише до вказаного вузла
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="67"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation type="unfinished"/>
+        <translation>Підключитись до вузла, щоб отримати список адрес інших учасників та від&apos;єднатись</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="68"/>
         <source>Specify your own public address</source>
-        <translation type="unfinished"/>
+        <translation>Вкажіть вашу власну публічну адресу</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="69"/>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4 or IPv6)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="70"/>
-        <source>Try to discover public IP address (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="73"/>
-        <source>Bind to given address. Use [host]:port notation for IPv6</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="75"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Поріг відключення неправильно підєднаних пірів (за замовчуванням: 100)</translation>
+        <translation>Поріг відключення неправильно під&apos;єднаних пірів (типово: 100)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="76"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Максимальній розмір вхідного буферу на одне з&apos;єднання (за замовчуванням 86400)</translation>
+        <translation>Максимальній розмір вхідного буферу на одне з&apos;єднання (типово: 86400)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="79"/>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 10000)</source>
-        <translation>Максимальоий буфер , &lt;n&gt; * 1000 байт (за умовчанням: 10000)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="80"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 10000)</source>
-        <translation>Максимальній розмір виіхідного буферу на одне з&apos;єднання (за замовчуванням 10000)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="83"/>
-        <source>Detach block and address databases. Increases shutdown time (default: 0)</source>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="86"/>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <translation>Прослуховувати &lt;port&gt; для JSON-RPC-з&apos;єднань (типово: 8332 або тестова мережа: 18332)</translation>
+    </message>
+    <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Приймати команди із командного рядка та команди JSON-RPC
-</translation>
+        <translation>Приймати команди із командного рядка та команди JSON-RPC</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="87"/>
+        <source>Fancycoin Core RPC client version</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Запустити в фоновому режимі (як демон) та приймати команди
-</translation>
+        <translation>Запустити в фоновому режимі (як демон) та приймати команди</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="88"/>
         <source>Use the test network</source>
-        <translation>Використовувати тестову мережу
-</translation>
+        <translation>Використовувати тестову мережу</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Output extra debugging information</source>
-        <translation>Виводити більше налагоджувальної інформації</translation>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Приймати з&apos;єднання ззовні (за замовчуванням: 1, якщо ні-проксі або-з&apos;єднання)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="90"/>
-        <source>Prepend debug output with timestamp</source>
-        <translation>Доповнювати налагоджувальний вивід відміткою часу</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="91"/>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Відсилаті налагоджувальну інформацію на консоль, а не у файл debug.log</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="92"/>
-        <source>Send trace/debug info to debugger</source>
-        <translation>Відсилаті налагоджувальну інформацію до налагоджувача</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="93"/>
-        <source>Username for JSON-RPC connections</source>
-        <translation>Ім’я користувача для JSON-RPC-з’єднань
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="94"/>
-        <source>Password for JSON-RPC connections</source>
-        <translation>Пароль для JSON-RPC-з’єднань
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="95"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332)</source>
-        <translation>Прослуховувати &lt;port&gt; для JSON-RPC-з’єднань (за промовчуванням: 8332)
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="96"/>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Дозволити JSON-RPC-з’єднання з вказаної IP-адреси
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="97"/>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Відправляти команди на вузол, запущений на &lt;ip&gt; (за промовчуванням: 127.0.0.1)
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="98"/>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="101"/>
-        <source>Upgrade wallet to latest format</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="102"/>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Встановити розмір пулу ключів &lt;n&gt; (за промовчуванням: 100)
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="103"/>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Пересканувати ланцюжок блоків, в пошуку втрачених переказів
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="104"/>
-        <source>How many blocks to check at startup (default: 2500, 0 = all)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="105"/>
-        <source>How thorough the block verification is (0-6, default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="106"/>
-        <source>Imports blocks from external blk000?.dat file</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="108"/>
-        <source>
-SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>
-Параметри SSL: (див. Bitcoin Wiki)
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="111"/>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Використовувати OpenSSL (https) для JSON-RPC-з’єднань
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="112"/>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Сертифікату сервера (за промовчуванням: server.cert)
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="113"/>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Закритий ключ сервера (за промовчуванням: server.pem)
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="114"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>Допустимі шифри (за промовчуванням: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="145"/>
-        <source>Warning: Disk space is low</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="107"/>
-        <source>This help message</source>
-        <translation>Дана довідка
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="121"/>
-        <source>Cannot obtain a lock on data directory %s.  Bitcoin is probably already running.</source>
-        <translation>Неможливо встановити блокування на робочий каталог %s.  Можливо, гаманець вже запущено.</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="48"/>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="30"/>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="58"/>
-        <source>Connect through socks proxy</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="59"/>
-        <source>Select the version of socks proxy to use (4 or 5, 5 is default)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="60"/>
-        <source>Do not use proxy for connections to network &lt;net&gt; (IPv4 or IPv6)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="61"/>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="62"/>
-        <source>Pass DNS requests to (SOCKS5) proxy</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="142"/>
-        <source>Loading addresses...</source>
-        <translation>Завантаження адрес...</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="132"/>
-        <source>Error loading blkindex.dat</source>
-        <translation>Помилка при завантаженні blkindex.dat </translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="134"/>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Помилка при завантаженні wallet.dat: Гаманець пошкоджено      </translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="135"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Помилка при завантаженні wallet.dat: Гаманець потребує новішої версії Біткоін-клієнта</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="136"/>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Потрібно перезаписати гаманець: перезапустіть Біткоін-клієнт для завершення</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="137"/>
-        <source>Error loading wallet.dat</source>
-        <translation>Помилка при завантаженні wallet.dat</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="124"/>
-        <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="125"/>
-        <source>Unknown network specified in -noproxy: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="127"/>
-        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="126"/>
-        <source>Unknown -socks proxy version requested: %i</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="128"/>
-        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="129"/>
-        <source>Not listening on any port</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="130"/>
-        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="117"/>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="143"/>
-        <source>Error: could not start node</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="31"/>
-        <source>Error: Wallet locked, unable to create transaction  </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="32"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds  </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="35"/>
-        <source>Error: Transaction creation failed  </source>
-        <translation>Помилка: не вдалося створити переказ  </translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="36"/>
-        <source>Sending...</source>
-        <translation>Відправлення...</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="37"/>
-        <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Помилка: переказ було відхилено.  Це може статись, якщо декілька монет з вашого гаманця вже використані, наприклад, якщо ви використовуєте одну копію гаманця (wallet.dat), а монети були використані з іншої копії, але не позначені як використані в цій.</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="41"/>
-        <source>Invalid amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="42"/>
-        <source>Insufficient funds</source>
-        <translation>Недостатньо коштів</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="131"/>
-        <source>Loading block index...</source>
-        <translation>Завантаження індексу блоків...</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="65"/>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="28"/>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="71"/>
-        <source>Find peers using internet relay chat (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="72"/>
-        <source>Accept connections from outside (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="74"/>
-        <source>Find peers using DNS lookup (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Use Universal Plug and Play to map the listening port (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="82"/>
-        <source>Use Universal Plug and Play to map the listening port (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="85"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>Комісія за Кб
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="118"/>
-        <source>Warning: -paytxfee is set very high. This is the transaction fee you will pay if you send a transaction.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="133"/>
-        <source>Loading wallet...</source>
-        <translation>Завантаження гаманця...</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="138"/>
-        <source>Cannot downgrade wallet</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="139"/>
-        <source>Cannot initialize keypool</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="140"/>
-        <source>Cannot write default address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="141"/>
-        <source>Rescanning...</source>
-        <translation>Сканування...</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="144"/>
-        <source>Done loading</source>
-        <translation>Завантаження завершене</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="8"/>
-        <source>To use the %s option</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="9"/>
         <source>%s, you must set a rpcpassword in the configuration file:
- %s
+%s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=Fancycoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
+The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s &quot;Fancycoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="18"/>
+        <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation>Прив&apos;язка до даного адресою і завжди слухати на ньому. Використовуйте [господаря]: позначення порту для IPv6</translation>
+    </message>
+    <message>
+        <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:15)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
+        <translation>Введіть тестовий режим регресії, яка використовує спеціальну ланцюг, в якій блоки можуть бути вирішені негайно. Це призначено для регресійного тестування інструментів і розробки додатків.</translation>
+    </message>
+    <message>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Error: Listening for incoming connections failed (listen returned error %d)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>Помилка: транзакцію було відхилено. Це може статись, якщо декілька монет з вашого гаманця вже використані, наприклад, якщо ви використовуєте одну копію гаманця (wallet.dat), а монети були використані з іншої копії, але не позначені як використані в цій.</translation>
+    </message>
+    <message>
+        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Fees smaller than this are considered zero fee (for transaction creation) (default:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: 100)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>How thorough the block verification of -checkblocks is (0-4, default: 3)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Set the processor limit for when generation is on (-1 = unlimited, default: -1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation>Це тест збірки попередньою версією - використовуйте на свій страх і ризик - не використовувати для гірничодобувних або торгових додатків</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer. Fancycoin Core is probably already running.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Увага: встановлено занадто велику комісію (-paytxfee). Комісія зніматиметься кожен раз коли ви проводитимете транзакції.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Fancycoin will not work properly.</source>
+        <translation>Увага: будь ласка, перевірте дату і час на своєму комп&apos;ютері. Якщо ваш годинник йде неправильно, Fancycoin може працювати некоректно.</translation>
+    </message>
+    <message>
+        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation>Увага: помилка читання wallet.dat! Всі ключі прочитано коректно, але дані транзакцій чи записи адресної книги можуть бути пропущені, або пошкоджені.</translation>
+    </message>
+    <message>
+        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
+        <translation>Увага: файл wallet.dat пошкоджено, дані врятовано! Оригінальний wallet.dat збережено як wallet.{timestamp}.bak до %s; якщо Ваш баланс чи транзакції неправильні, Ви можете відновити їх з резервної копії. </translation>
+    </message>
+    <message>
+        <source>(default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>(default: wallet.dat)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>&lt;category&gt; can be:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
+        <translation>Спроба відновити закриті ключі з пошкодженого wallet.dat</translation>
+    </message>
+    <message>
+        <source>Fancycoin Core Daemon</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Block creation options:</source>
+        <translation>Опції створення блоку:</translation>
+    </message>
+    <message>
+        <source>Clear list of wallet transactions (diagnostic tool; implies -rescan)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s)</source>
+        <translation>Підключитись лише до вказаного вузла</translation>
+    </message>
+    <message>
+        <source>Connect through SOCKS proxy</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Connection options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Corrupted block database detected</source>
+        <translation>Виявлено пошкоджений блок бази даних</translation>
+    </message>
+    <message>
+        <source>Debugging/Testing options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Disable safemode, override a real safe mode event (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
+        <translation>Відкрийте власну IP-адресу (за замовчуванням: 1, коли не чує і-externalip)</translation>
+    </message>
+    <message>
+        <source>Do not load the wallet and disable wallet RPC calls</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation>Ви хочете перебудувати базу даних блоку зараз?</translation>
+    </message>
+    <message>
+        <source>Error initializing block database</source>
+        <translation>Помилка ініціалізації бази даних блоків</translation>
+    </message>
+    <message>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Error loading block database</source>
+        <translation>Помилка завантаження бази даних блоків</translation>
+    </message>
+    <message>
+        <source>Error opening block database</source>
+        <translation>Помилка відкриття блоку бази даних </translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low!</source>
+        <translation>Помилка: Мало вільного місця на диску!</translation>
+    </message>
+    <message>
+        <source>Error: Wallet locked, unable to create transaction!</source>
+        <translation>Помилка: Гаманець заблокований, неможливо створити транзакцію!</translation>
+    </message>
+    <message>
+        <source>Error: system error: </source>
+        <translation>Помилка: системна помилка: </translation>
+    </message>
+    <message>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation>Не вдалося слухати на будь-якому порту. Використовуйте-слухати = 0, якщо ви хочете цього.</translation>
+    </message>
+    <message>
+        <source>Failed to read block info</source>
+        <translation>Не вдалося розпізнати блок інформації </translation>
+    </message>
+    <message>
+        <source>Failed to read block</source>
+        <translation>Не вдалося розпізнати блок</translation>
+    </message>
+    <message>
+        <source>Failed to sync block index</source>
+        <translation>Не вдалося синхронізувати індекс блоку </translation>
+    </message>
+    <message>
+        <source>Failed to write block index</source>
+        <translation>Не вдалося записати індекс блоку</translation>
+    </message>
+    <message>
+        <source>Failed to write block info</source>
+        <translation>Не вдалося записати інформацію індекса</translation>
+    </message>
+    <message>
+        <source>Failed to write block</source>
+        <translation>Не вдалося записати блок</translation>
+    </message>
+    <message>
+        <source>Failed to write file info</source>
+        <translation>Не вдалося записати інформацію файла</translation>
+    </message>
+    <message>
+        <source>Failed to write to coin database</source>
+        <translation>Не вдалося записати до бази даних монет</translation>
+    </message>
+    <message>
+        <source>Failed to write transaction index</source>
+        <translation>Не вдалося записати індекс транзакції</translation>
+    </message>
+    <message>
+        <source>Failed to write undo data</source>
+        <translation>Не вдалося записати скасувати дані</translation>
+    </message>
+    <message>
+        <source>Fee per kB to add to transactions you send</source>
+        <translation>Комісія за Кб</translation>
+    </message>
+    <message>
+        <source>Fees smaller than this are considered zero fee (for relaying) (default:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
+        <translation>Знайти однолітків за допомогою DNS пошук (за замовчуванням: 1, якщо-ні підключити)</translation>
+    </message>
+    <message>
+        <source>Force safe mode (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Generate coins (default: 0)</source>
+        <translation>Генерація монети (за замовчуванням: 0)</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
+        <translation>Скільки блоків перевіряти під час запуску (типово: 288, 0 = всі)</translation>
+    </message>
+    <message>
+        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Importing...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Invalid -onion address: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation>Бракує дескрипторів файлів, доступних.</translation>
+    </message>
+    <message>
+        <source>Prepend debug output with timestamp (default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>RPC client options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Select SOCKS version for -proxy (4 or 5, default: 5)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Set the number of threads to service RPC calls (default: 4)</source>
+        <translation>Встановити число потоків до дзвінків служба RPC (за замовчуванням: 4)</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Spend unconfirmed change when sending transactions (default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>This is intended for regression testing tools and app development.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Usage (deprecated, use Fancycoin-cli):</source>
+        <translation>Використання (застаріле, використовуйте Fancycoin-cli):</translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>Перевірка блоків...</translation>
+    </message>
+    <message>
+        <source>Verifying wallet...</source>
+        <translation>Перевірка гаманця... </translation>
+    </message>
+    <message>
+        <source>Wait for RPC server to start</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Wallet options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation>Імпорт блоків з зовнішнього файлу blk000??.dat</translation>
+    </message>
+    <message>
+        <source>Cannot obtain a lock on data directory %s. Fancycoin Core is probably already running.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Інформація</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Limit size of signature cache to &lt;n&gt; entries (default: 50000)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Log transaction priority and fee per kB when mining blocks (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Maintain a full transaction index (default: 0)</source>
+        <translation>Підтримувати індекс повний транзакцій (за замовчуванням: 0)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
+        <translation>Максимальний буфер, &lt;n&gt;*1000 байт (типово: 5000)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
+        <translation>Максимальній розмір вихідного буферу на одне з&apos;єднання, &lt;n&gt;*1000 байт (типово: 1000)</translation>
+    </message>
+    <message>
+        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
+        <translation>Тільки приймати блок відповідності ланцюга вбудованих контрольно-пропускних пунктів (за замовчуванням: 1)</translation>
+    </message>
+    <message>
+        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
+        <translation>Підключити тільки до вузлів в мережі &lt;net&gt; (IPv4, IPv6 або Tor)</translation>
+    </message>
+    <message>
+        <source>Print block on startup, if found in block index</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Print block tree on startup (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>RPC SSL options: (see the Fancycoin Wiki for SSL setup instructions)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>RPC server options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Run a thread to flush wallet periodically (default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>SSL options: (see the Fancycoin Wiki for SSL setup instructions)</source>
+        <translation>Параметри SSL: (див. Fancycoin Wiki для налаштування SSL)</translation>
+    </message>
+    <message>
+        <source>Send command to Fancycoin Core</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Відсилати налагоджувальну інформацію на консоль, а не у файл debug.log</translation>
+    </message>
+    <message>
+        <source>Set minimum block size in bytes (default: 0)</source>
+        <translation>Встановити мінімальний розмір блоку у байтах (типово: 0)</translation>
+    </message>
+    <message>
+        <source>Sets the DB_PRIVATE flag in the wallet db environment (default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Show all debugging options (usage: --help -help-debug)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Show benchmark information (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
+        <translation>Стискати файл debug.log під час старту клієнта (типово: 1 коли відсутутній параметр -debug)</translation>
+    </message>
+    <message>
+        <source>Signing transaction failed</source>
+        <translation>Підписання угоди не вдалося</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation>Вказати тайм-аут підключення у мілісекундах (типово: 5000)</translation>
+    </message>
+    <message>
+        <source>Start Fancycoin Core Daemon</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>System error: </source>
+        <translation>Системна помилка: </translation>
+    </message>
+    <message>
+        <source>Transaction amount too small</source>
+        <translation>Сума угоди занадто малий</translation>
+    </message>
+    <message>
+        <source>Transaction amounts must be positive</source>
+        <translation>Суми угоди має бути позитивним</translation>
+    </message>
+    <message>
+        <source>Transaction too large</source>
+        <translation>Угода занадто великий</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: 0)</source>
+        <translation>Намагатись використовувати UPnP для відображення порту, що прослуховується на роутері (default: 0)</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
+        <translation>Намагатись використовувати UPnP для відображення порту, що прослуховується на роутері (default: 1 when listening)</translation>
+    </message>
+    <message>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Ім&apos;я користувача для JSON-RPC-з&apos;єднань</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Попередження</translation>
+    </message>
+    <message>
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation>Увага: Поточна версія застаріла, необхідне оновлення!</translation>
+    </message>
+    <message>
+        <source>Zapping all transactions from wallet...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>on startup</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>version</source>
+        <translation>версія</translation>
+    </message>
+    <message>
+        <source>wallet.dat corrupt, salvage failed</source>
+        <translation>wallet.dat пошкоджено, відновлення не вдалося</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Пароль для JSON-RPC-з&apos;єднань</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Дозволити JSON-RPC-з&apos;єднання з вказаної IP-адреси</translation>
+    </message>
+    <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Відправляти команди на вузол, запущений на &lt;ip&gt; (типово: 127.0.0.1)</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Виконати команду, коли з&apos;явиться новий блок (%s в команді змінюється на хеш блоку)</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Модернізувати гаманець до останнього формату</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Встановити розмір пулу ключів &lt;n&gt; (типово: 100)</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Пересканувати ланцюжок блоків, в пошуку втрачених транзакцій</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Використовувати OpenSSL (https) для JSON-RPC-з&apos;єднань</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Файл сертифіката сервера (типово: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Закритий ключ сервера (типово: server.pem)</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Дана довідка</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>Неможливо прив&apos;язати до порту %s на цьому комп&apos;ютері (bind returned error %d, %s)</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Дозволити пошук в DNS для команд -addnode, -seednode та -connect</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Завантаження адрес...</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Помилка при завантаженні wallet.dat: Гаманець пошкоджено</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet requires newer version of Fancycoin</source>
+        <translation>Помилка при завантаженні wallet.dat: Гаманець потребує новішої версії Біткоін-клієнта</translation>
+    </message>
+    <message>
+        <source>Wallet needed to be rewritten: restart Fancycoin to complete</source>
+        <translation>Потрібно перезаписати гаманець: перезапустіть Біткоін-клієнт для завершення</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Помилка при завантаженні wallet.dat</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: &apos;%s&apos;</source>
+        <translation>Помилка в адресі проксі-сервера: «%s»</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
+        <translation>Невідома мережа вказана в -onlynet: «%s»</translation>
+    </message>
+    <message>
+        <source>Unknown -socks proxy version requested: %i</source>
+        <translation>В параметрі -socks запитується невідома версія: %i</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Помилка у величині комісії -paytxfee=&lt;amount&gt;: «%s»</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>Некоректна кількість</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Недостатньо коштів</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>Завантаження індексу блоків...</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Додати вузол до підключення і лишити його відкритим</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>Завантаження гаманця...</translation>
+    </message>
+    <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>Не вдається понизити версію гаманця</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>Неможливо записати типову адресу</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Сканування...</translation>
+    </message>
+    <message>
+        <source>Done loading</source>
+        <translation>Завантаження завершене</translation>
+    </message>
+    <message>
+        <source>To use the %s option</source>
+        <translation>Щоб використати опцію %s</translation>
+    </message>
+    <message>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>Помилка</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>An error occured while setting up the RPC port %i for listening: %s</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="20"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="25"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Увага: будь ласка, перевірте дату і час на свому комп’ютері.  Якщо ваш годинник йде неправильно, Bitcoin може працювати некоректно.</translation>
+        <translation>Ви мусите встановити rpcpassword=&lt;password&gt; в файлі конфігурації:
+%s
+Якщо файл не існує, створіть його із правами тільки для читання власником (owner-readable-only).</translation>
     </message>
 </context>
 </TS>

@@ -1,14 +1,20 @@
+// Copyright (c) 2011-2013 The Bitcoin developers
+// Distributed under the MIT/X11 software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
 #ifndef BITCOINUNITS_H
 #define BITCOINUNITS_H
 
-#include <QString>
 #include <QAbstractListModel>
+#include <QString>
 
 /** Bitcoin unit definitions. Encapsulates parsing and formatting
-   and serves as list model for dropdown selection boxes.
+   and serves as list model for drop-down selection boxes.
 */
 class BitcoinUnits: public QAbstractListModel
 {
+    Q_OBJECT
+
 public:
     explicit BitcoinUnits(QObject *parent);
 
@@ -26,7 +32,7 @@ public:
     //! Unit conversion and formatting
     ///@{
 
-    //! Get list of units, for dropdown box
+    //! Get list of units, for drop-down box
     static QList<Unit> availableUnits();
     //! Is unit ID valid?
     static bool valid(int unit);
@@ -36,6 +42,8 @@ public:
     static QString description(int unit);
     //! Number of Satoshis (1e-8) per unit
     static qint64 factor(int unit);
+    //! Max amount per unit
+    static qint64 maxAmount(int unit);
     //! Number of amount digits (to represent max number of coins)
     static int amountDigits(int unit);
     //! Number of decimals left
@@ -49,7 +57,7 @@ public:
     ///@}
 
     //! @name AbstractListModel implementation
-    //! List model for unit dropdown selection box.
+    //! List model for unit drop-down selection box.
     ///@{
     enum RoleIndex {
         /** Unit identifier */
@@ -58,6 +66,7 @@ public:
     int rowCount(const QModelIndex &parent) const;
     QVariant data(const QModelIndex &index, int role) const;
     ///@}
+
 private:
     QList<BitcoinUnits::Unit> unitlist;
 };
