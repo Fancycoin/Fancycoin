@@ -1,24 +1,18 @@
-// Copyright (c) 2011-2013 The Bitcoin developers
-// Distributed under the MIT/X11 software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
 #ifndef OVERVIEWPAGE_H
 #define OVERVIEWPAGE_H
 
 #include <QWidget>
 
-class ClientModel;
-class TransactionFilterProxy;
-class TxViewDelegate;
-class WalletModel;
+QT_BEGIN_NAMESPACE
+class QModelIndex;
+QT_END_NAMESPACE
 
 namespace Ui {
     class OverviewPage;
 }
-
-QT_BEGIN_NAMESPACE
-class QModelIndex;
-QT_END_NAMESPACE
+class WalletModel;
+class TxViewDelegate;
+class TransactionFilterProxy;
 
 /** Overview ("home") page widget */
 class OverviewPage : public QWidget
@@ -29,20 +23,19 @@ public:
     explicit OverviewPage(QWidget *parent = 0);
     ~OverviewPage();
 
-    void setClientModel(ClientModel *clientModel);
-    void setWalletModel(WalletModel *walletModel);
+    void setModel(WalletModel *model);
     void showOutOfSyncWarning(bool fShow);
 
 public slots:
     void setBalance(qint64 balance, qint64 unconfirmedBalance, qint64 immatureBalance);
+    void setNumTransactions(int count);
 
 signals:
     void transactionClicked(const QModelIndex &index);
 
 private:
     Ui::OverviewPage *ui;
-    ClientModel *clientModel;
-    WalletModel *walletModel;
+    WalletModel *model;
     qint64 currentBalance;
     qint64 currentUnconfirmedBalance;
     qint64 currentImmatureBalance;
@@ -53,7 +46,6 @@ private:
 private slots:
     void updateDisplayUnit();
     void handleTransactionClicked(const QModelIndex &index);
-    void updateAlerts(const QString &warnings);
 };
 
 #endif // OVERVIEWPAGE_H

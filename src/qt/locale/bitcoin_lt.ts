@@ -1,150 +1,143 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.0">
+<defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Fancycoin Core</source>
-        <translation type="unfinished"/>
+        <location filename="../forms/aboutdialog.ui" line="14"/>
+        <source>About Bitcoin</source>
+        <translation>Apie Bitcoiną</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Fancycoin Core&lt;/b&gt; version</source>
-        <translation type="unfinished"/>
+        <location filename="../forms/aboutdialog.ui" line="53"/>
+        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Bitcoin&lt;/b&gt; versija</translation>
     </message>
     <message>
-        <source>
+        <location filename="../forms/aboutdialog.ui" line="97"/>
+        <source>Copyright © 2009-2012 Bitcoin Developers
+
 This is experimental software.
 
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>Tai eksperimentinė programa.
+        <translation>Autorystės teisės© 2009-2012 Bitcoin Developers
+DĖMESIO: programa eksperimentinė!
 
-Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.opensource.org/licenses/mit-license.php.
+Platinama pagal licenziją MIT/X11, papildomą informaciją rasite faile license.txt arba dokumente pagal nuorodą: http://www.opensource.org/licenses/mit-license.php.
 
-Šiame produkte yra OpenSSL projekto kuriamas OpenSSL Toolkit (http://www.openssl.org/), Eric Young parašyta kriptografinė programinė įranga bei Thomas Bernard sukurta UPnP programinė įranga.</translation>
-    </message>
-    <message>
-        <source>Copyright</source>
-        <translation>Copyright</translation>
-    </message>
-    <message>
-        <source>The Bitcoin and Fancycoin Core developers</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>(%1-bit)</source>
-        <translation type="unfinished"/>
+Šiame produkte yra projekto OpenSSL (http://www.openssl.org/), Eriko Jango (eay@cryptsoft.com) parašyti kriptografinės funkcijos ir algoritmai ir UPnP darbui skirtos funkcijos parašytos Tomo Bernardo.
+    </translation>
     </message>
 </context>
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Double-click to edit address or label</source>
-        <translation>Spragtelėkite, kad pakeistumėte adresą arba žymę</translation>
+        <location filename="../forms/addressbookpage.ui" line="14"/>
+        <source>Address Book</source>
+        <translation>Adresų knygelė</translation>
     </message>
     <message>
+        <location filename="../forms/addressbookpage.ui" line="20"/>
+        <source>These are your Bitcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Čia yra Jūsų adresai skirti mokėjimams gauti.  Jūs galite skirtingiems žmonėms duoti skirtingus adresus. Tai Jums palengvins kontroliuoti mokėjimus bei padidins anonimiškumą.
+    </translation>
+    </message>
+    <message>
+        <location filename="../forms/addressbookpage.ui" line="36"/>
+        <source>Double-click to edit address or label</source>
+        <translation>Tam, kad pakeisti ar redaguoti adresą arba žymę turite objektą dukart spragtelti pele.</translation>
+    </message>
+    <message>
+        <location filename="../forms/addressbookpage.ui" line="63"/>
         <source>Create a new address</source>
         <translation>Sukurti naują adresą</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>&amp;Naujas</translation>
-    </message>
-    <message>
+        <location filename="../forms/addressbookpage.ui" line="77"/>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Kopijuoti esamą adresą į mainų atmintį</translation>
     </message>
     <message>
-        <source>&amp;Copy</source>
-        <translation>&amp;Kopijuoti</translation>
+        <location filename="../forms/addressbookpage.ui" line="66"/>
+        <source>&amp;New Address</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>C&amp;lose</source>
-        <translation>&amp;Užverti</translation>
-    </message>
-    <message>
+        <location filename="../forms/addressbookpage.ui" line="80"/>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Kopijuoti adresą</translation>
-    </message>
-    <message>
-        <source>Delete the currently selected address from the list</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished"/>
+        <location filename="../forms/addressbookpage.ui" line="91"/>
+        <source>Show &amp;QR Code</source>
+        <translation>Rodyti &amp;QR kodą</translation>
     </message>
     <message>
-        <source>&amp;Export</source>
-        <translation>&amp;Eksportuoti</translation>
+        <location filename="../forms/addressbookpage.ui" line="102"/>
+        <source>Sign a message to prove you own this address</source>
+        <translation>Registruotis žinute įrodančia, kad turite šį adresą</translation>
     </message>
     <message>
+        <location filename="../forms/addressbookpage.ui" line="105"/>
+        <source>&amp;Sign Message</source>
+        <translation>&amp;S Registruotis žinute</translation>
+    </message>
+    <message>
+        <location filename="../forms/addressbookpage.ui" line="116"/>
+        <source>Delete the currently selected address from the list. Only sending addresses can be deleted.</source>
+        <translation>Pašalinti iš sąrašo pažymėtą adresą(gali būti pašalinti tiktai adresų knygelės įrašai).</translation>
+    </message>
+    <message>
+        <location filename="../forms/addressbookpage.ui" line="119"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Trinti</translation>
+        <translation>&amp;D Pašalinti</translation>
     </message>
     <message>
-        <source>Choose the address to send coins to</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Choose the address to receive coins with</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>C&amp;hoose</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Sending addresses</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Receiving addresses</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>These are your Fancycoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>These are your Fancycoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+        <location filename="../addressbookpage.cpp" line="63"/>
         <source>Copy &amp;Label</source>
-        <translation>Kopijuoti ž&amp;ymę</translation>
-    </message>
-    <message>
-        <source>&amp;Edit</source>
-        <translation>&amp;Keisti</translation>
-    </message>
-    <message>
-        <source>Export Address List</source>
         <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="65"/>
+        <source>&amp;Edit</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../addressbookpage.cpp" line="292"/>
+        <source>Export Address Book Data</source>
+        <translation>Eksportuoti adresų knygelės duomenis</translation>
+    </message>
+    <message>
+        <location filename="../addressbookpage.cpp" line="293"/>
         <source>Comma separated file (*.csv)</source>
         <translation>Kableliais išskirtas failas (*.csv)</translation>
     </message>
     <message>
-        <source>Exporting Failed</source>
-        <translation type="unfinished"/>
+        <location filename="../addressbookpage.cpp" line="306"/>
+        <source>Error exporting</source>
+        <translation>Eksportavimo klaida</translation>
     </message>
     <message>
-        <source>There was an error trying to save the address list to %1.</source>
-        <translation type="unfinished"/>
+        <location filename="../addressbookpage.cpp" line="306"/>
+        <source>Could not write to file %1.</source>
+        <translation>Nepavyko įrašyti į failą %1.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
+        <location filename="../addresstablemodel.cpp" line="142"/>
         <source>Label</source>
         <translation>Žymė</translation>
     </message>
     <message>
+        <location filename="../addresstablemodel.cpp" line="142"/>
         <source>Address</source>
         <translation>Adresas</translation>
     </message>
     <message>
+        <location filename="../addresstablemodel.cpp" line="178"/>
         <source>(no label)</source>
         <translation>(nėra žymės)</translation>
     </message>
@@ -152,393 +145,432 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+        <location filename="../forms/askpassphrasedialog.ui" line="26"/>
         <source>Passphrase Dialog</source>
-        <translation>Slaptafrazės dialogas</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../forms/askpassphrasedialog.ui" line="47"/>
         <source>Enter passphrase</source>
-        <translation>Įvesti slaptafrazę</translation>
+        <translation>Įvesti slaptažodį</translation>
     </message>
     <message>
+        <location filename="../forms/askpassphrasedialog.ui" line="61"/>
         <source>New passphrase</source>
-        <translation>Nauja slaptafrazė</translation>
+        <translation>Naujas slaptažodis</translation>
     </message>
     <message>
+        <location filename="../forms/askpassphrasedialog.ui" line="75"/>
         <source>Repeat new passphrase</source>
-        <translation>Pakartokite naują slaptafrazę</translation>
+        <translation>Pakartoti naują slaptažodį</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Įveskite naują piniginės slaptafrazę.&lt;br/&gt;Prašome naudoti slaptafrazę iš &lt;b&gt; 10 ar daugiau atsitiktinių simbolių&lt;/b&gt; arba &lt;b&gt;aštuonių ar daugiau žodžių&lt;/b&gt;.</translation>
+        <translation>Įveskite naują slaptažodį piniginei &lt;br/&gt; Prašome naudoti slaptažodį iš &lt;b&gt; 10 ar daugiau atsitiktinių simbolių &lt;/b&gt; arba &lt;b&gt; aštuonių ar daugiau žodžių &lt;/b&gt;.</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="34"/>
         <source>Encrypt wallet</source>
         <translation>Užšifruoti piniginę</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="37"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Ši operacija reikalauja jūsų piniginės slaptafrazės jai atrakinti.</translation>
+        <translation>Ši operacija reikalauja jūsų piniginės slaptažodžio jai atrakinti.</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="42"/>
         <source>Unlock wallet</source>
         <translation>Atrakinti piniginę</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="45"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Ši operacija reikalauja jūsų piniginės slaptafrazės jai iššifruoti.</translation>
+        <translation>Ši operacija reikalauja jūsų piniginės slaptažodžio jai iššifruoti.</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="50"/>
         <source>Decrypt wallet</source>
         <translation>Iššifruoti piniginę</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="53"/>
         <source>Change passphrase</source>
-        <translation>Pakeisti slaptafrazę</translation>
+        <translation>Pakeisti slaptažodį</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="54"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Įveskite seną ir naują piniginės slaptafrazes.</translation>
+        <translation>Įveskite seną ir naują piniginės slaptažodžius</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="100"/>
         <source>Confirm wallet encryption</source>
         <translation>Patvirtinkite piniginės užšifravimą</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FancycoinS&lt;/b&gt;!</source>
-        <translation>Dėmesio: jei užšifruosite savo piniginę ir pamesite slaptafrazę, jūs&lt;b&gt;PRARASITE VISUS SAVO FancycoinUS&lt;/b&gt;! </translation>
+        <location filename="../askpassphrasedialog.cpp" line="101"/>
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!
+Are you sure you wish to encrypt your wallet?</source>
+        <translation>ĮSPĖJIMAS: Jei užšifruosite savo piniginę ir prarasite savo slaptažodį, Jūs &lt;b&gt; PRARASITE VISUS SAVO BITKOINUS, &lt;/b&gt;!
+Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
-        <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Ar tikrai norite šifruoti savo piniginę?</translation>
-    </message>
-    <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Įspėjimas: įjungtas Caps Lock klavišas!</translation>
-    </message>
-    <message>
+        <location filename="../askpassphrasedialog.cpp" line="110"/>
+        <location filename="../askpassphrasedialog.cpp" line="159"/>
         <source>Wallet encrypted</source>
         <translation>Piniginė užšifruota</translation>
     </message>
     <message>
-        <source>Fancycoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Fancycoins from being stolen by malware infecting your computer.</source>
-        <translation>Fancycoin dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas negali pilnai apsaugoti bitcoinų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
+        <location filename="../askpassphrasedialog.cpp" line="111"/>
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Bitcoin dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas  negali pilnai apsaugoti bitcoinų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="207"/>
+        <location filename="../askpassphrasedialog.cpp" line="231"/>
+        <source>Warning: The Caps Lock key is on.</source>
+        <translation>ĮSPĖJIMAS: Įjungtos didžiosios raidės</translation>
+    </message>
+    <message>
+        <location filename="../askpassphrasedialog.cpp" line="116"/>
+        <location filename="../askpassphrasedialog.cpp" line="123"/>
+        <location filename="../askpassphrasedialog.cpp" line="165"/>
+        <location filename="../askpassphrasedialog.cpp" line="171"/>
         <source>Wallet encryption failed</source>
         <translation>Nepavyko užšifruoti piniginę</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="117"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
         <translation>Dėl vidinės klaidos nepavyko užšifruoti piniginę.Piniginė neužšifruota.</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="124"/>
+        <location filename="../askpassphrasedialog.cpp" line="172"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>Įvestos slaptafrazės nesutampa.</translation>
+        <translation>Įvestas slaptažodis nesutampa</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="135"/>
         <source>Wallet unlock failed</source>
         <translation>Nepavyko atrakinti piniginę</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="136"/>
+        <location filename="../askpassphrasedialog.cpp" line="147"/>
+        <location filename="../askpassphrasedialog.cpp" line="166"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Neteisingai įvestas slaptažodis piniginės iššifravimui.</translation>
+        <translation> Neteisingai įvestas slaptažodis piniginės iššifravimui</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="146"/>
         <source>Wallet decryption failed</source>
-        <translation>Nepavyko iššifruoti piniginės</translation>
+        <translation>Nepavyko iššifruoti piniginę</translation>
     </message>
     <message>
-        <source>Wallet passphrase was successfully changed.</source>
-        <translation>Piniginės slaptažodis sėkmingai pakeistas.</translation>
+        <location filename="../askpassphrasedialog.cpp" line="160"/>
+        <source>Wallet passphrase was succesfully changed.</source>
+        <translation>Sėkmingai pakeistas piniginės slaptažodis</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>Pasirašyti ži&amp;nutę...</translation>
+        <location filename="../bitcoingui.cpp" line="73"/>
+        <source>Bitcoin Wallet</source>
+        <translation>Bitkoinų piniginė</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="215"/>
+        <source>Sign &amp;message...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="248"/>
+        <source>Show/Hide &amp;Bitcoin</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="515"/>
         <source>Synchronizing with network...</source>
         <translation>Sinchronizavimas su tinklu ...</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="185"/>
         <source>&amp;Overview</source>
-        <translation>&amp;Apžvalga</translation>
+        <translation>&amp;O Apžvalga</translation>
     </message>
     <message>
-        <source>Node</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+        <location filename="../bitcoingui.cpp" line="186"/>
         <source>Show general overview of wallet</source>
         <translation>Rodyti piniginės bendrą apžvalgą</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="191"/>
         <source>&amp;Transactions</source>
-        <translation>&amp;Sandoriai</translation>
+        <translation>&amp;T Sandoriai</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="192"/>
         <source>Browse transaction history</source>
         <translation>Apžvelgti sandorių istoriją</translation>
     </message>
     <message>
-        <source>E&amp;xit</source>
-        <translation>&amp;Išeiti</translation>
+        <location filename="../bitcoingui.cpp" line="197"/>
+        <source>&amp;Address Book</source>
+        <translation>&amp;Adresų knygelė</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="198"/>
+        <source>Edit the list of stored addresses and labels</source>
+        <translation>Redaguoti išsaugotus adresus bei žymes</translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="203"/>
+        <source>&amp;Receive coins</source>
+        <translation>&amp;R Gautos monetos</translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="204"/>
+        <source>Show the list of addresses for receiving payments</source>
+        <translation>Parodyti adresų sąraša mokėjimams gauti</translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="209"/>
+        <source>&amp;Send coins</source>
+        <translation>&amp;Siųsti monetas</translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="216"/>
+        <source>Prove you control an address</source>
+        <translation>Įrodyti, kad jūs valdyti adresą</translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="235"/>
+        <source>E&amp;xit</source>
+        <translation>&amp;x išėjimas</translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="236"/>
         <source>Quit application</source>
         <translation>Išjungti programą</translation>
     </message>
     <message>
-        <source>Show information about Fancycoin</source>
-        <translation>Rodyti informaciją apie Fancycoin</translation>
+        <location filename="../bitcoingui.cpp" line="239"/>
+        <source>&amp;About %1</source>
+        <translation>&amp;Apie %1</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="240"/>
+        <source>Show information about Bitcoin</source>
+        <translation>Rodyti informaciją apie Bitkoiną</translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="242"/>
         <source>About &amp;Qt</source>
         <translation>Apie &amp;Qt</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="243"/>
         <source>Show information about Qt</source>
         <translation>Rodyti informaciją apie Qt</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="245"/>
         <source>&amp;Options...</source>
-        <translation>&amp;Parinktys...</translation>
+        <translation>&amp;Opcijos...</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="252"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Užšifruoti piniginę...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="255"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup piniginę...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="257"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Keisti slaptafrazę...</translation>
+        <translation type="unfinished"/>
+    </message>
+    <message numerus="yes">
+        <location filename="../bitcoingui.cpp" line="517"/>
+        <source>~%n block(s) remaining</source>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
+        <location filename="../bitcoingui.cpp" line="528"/>
+        <source>Downloaded %1 of %2 blocks of transaction history (%3% done).</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
+        <location filename="../bitcoingui.cpp" line="250"/>
+        <source>&amp;Export...</source>
+        <translation>&amp;Eksportas...</translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="210"/>
+        <source>Send coins to a Bitcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
+        <location filename="../bitcoingui.cpp" line="246"/>
+        <source>Modify configuration options for Bitcoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
-        <translation>Blokai importuojami iš disko...</translation>
+        <location filename="../bitcoingui.cpp" line="249"/>
+        <source>Show or hide the Bitcoin window</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Reindexing blocks on disk...</source>
-        <translation>Blokai iš naujo indeksuojami...</translation>
+        <location filename="../bitcoingui.cpp" line="251"/>
+        <source>Export the data in the current tab to a file</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Send coins to a Fancycoin address</source>
-        <translation>Siųsti monetas Fancycoin adresui</translation>
+        <location filename="../bitcoingui.cpp" line="253"/>
+        <source>Encrypt or decrypt wallet</source>
+        <translation>Užšifruoti  ar iššifruoti piniginę</translation>
     </message>
     <message>
-        <source>Modify configuration options for Fancycoin</source>
-        <translation>Keisti Fancycoin konfigūracijos galimybes</translation>
-    </message>
-    <message>
+        <location filename="../bitcoingui.cpp" line="256"/>
         <source>Backup wallet to another location</source>
-        <translation>Daryti piniginės atsarginę kopiją</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="258"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Pakeisti slaptafrazę naudojamą piniginės užšifravimui</translation>
+        <translation>Pakeisti slaptažodį naudojamą piniginės užšifravimui</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="259"/>
         <source>&amp;Debug window</source>
-        <translation>&amp;Derinimo langas</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="260"/>
         <source>Open debugging and diagnostic console</source>
-        <translation>Atverti derinimo ir diagnostikos konsolę</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="261"/>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Tikrinti žinutę...</translation>
-    </message>
-    <message>
-        <source>Fancycoin</source>
-        <translation>Fancycoin</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Piniginė</translation>
-    </message>
-    <message>
-        <source>&amp;Send</source>
-        <translation>&amp;Siųsti</translation>
-    </message>
-    <message>
-        <source>&amp;Receive</source>
-        <translation>&amp;Gauti</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;Rodyti / Slėpti</translation>
-    </message>
-    <message>
-        <source>Show or hide the main Window</source>
-        <translation>Rodyti arba slėpti pagrindinį langą</translation>
-    </message>
-    <message>
-        <source>Encrypt the private keys that belong to your wallet</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Sign messages with your Fancycoin addresses to prove you own them</source>
+        <location filename="../bitcoingui.cpp" line="262"/>
+        <source>Verify a message signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Fancycoin addresses</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+        <location filename="../bitcoingui.cpp" line="286"/>
         <source>&amp;File</source>
         <translation>&amp;Failas</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="296"/>
         <source>&amp;Settings</source>
-        <translation>&amp;Nustatymai</translation>
+        <translation>Nu&amp;Statymai</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="302"/>
         <source>&amp;Help</source>
-        <translation>&amp;Pagalba</translation>
+        <translation>&amp;H Pagelba</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="311"/>
         <source>Tabs toolbar</source>
-        <translation>Kortelių įrankinė</translation>
+        <translation>Tabs įrankių juosta</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="322"/>
+        <source>Actions toolbar</source>
+        <translation>Veiksmų įrankių juosta</translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="334"/>
+        <location filename="../bitcoingui.cpp" line="343"/>
         <source>[testnet]</source>
         <translation>[testavimotinklas]</translation>
     </message>
     <message>
-        <source>Fancycoin Core</source>
-        <translation>Fancycoin branduolys</translation>
-    </message>
-    <message>
-        <source>Request payments (generates QR codes and Fancycoin: URIs)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>&amp;About Fancycoin Core</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Show the list of used sending addresses and labels</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Show the list of used receiving addresses and labels</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Open a Fancycoin: URI or payment request</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>&amp;Command-line options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Show the Fancycoin Core help message to get a list with possible Fancycoin command-line options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Fancycoin client</source>
-        <translation>Fancycoin klientas</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Fancycoin network</source>
-        <translation><numerusform>%n Fancycoin tinklo aktyvus ryšys</numerusform><numerusform>%n Fancycoin tinklo aktyvūs ryšiai</numerusform><numerusform>%n Fancycoin tinklo aktyvūs ryšiai</numerusform></translation>
-    </message>
-    <message>
-        <source>No block source available...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Processed %1 blocks of transaction history.</source>
+        <location filename="../bitcoingui.cpp" line="343"/>
+        <location filename="../bitcoingui.cpp" line="399"/>
+        <source>Bitcoin client</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n valanda</numerusform><numerusform>%n valandos</numerusform><numerusform>%n valandų</numerusform></translation>
+        <location filename="../bitcoingui.cpp" line="492"/>
+        <source>%n active connection(s) to Bitcoin network</source>
+        <translation><numerusform>%n Bitcoin tinklo aktyvus ryšys</numerusform><numerusform>%n Bitcoin tinklo aktyvūs ryšiai</numerusform><numerusform>%n Bitcoin tinklo aktyvūs ryšiai</numerusform></translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="540"/>
+        <source>Downloaded %1 blocks of transaction history.</source>
+        <translation>Atsisiuntė %1 iš %2 sandorių istorijos blokų</translation>
     </message>
     <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n diena</numerusform><numerusform>%n dienos</numerusform><numerusform>%n dienų</numerusform></translation>
+        <location filename="../bitcoingui.cpp" line="555"/>
+        <source>%n second(s) ago</source>
+        <translation><numerusform>Prieš %n sekundę</numerusform><numerusform>Prieš %n sekundes</numerusform><numerusform>Prieš %n sekundžių</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n savaitė</numerusform><numerusform>%n savaitės</numerusform><numerusform>%n savaičių</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation type="unfinished"/>
+        <location filename="../bitcoingui.cpp" line="559"/>
+        <source>%n minute(s) ago</source>
+        <translation><numerusform>Prieš %n minutę</numerusform><numerusform>Prieš %n minutes</numerusform><numerusform>Prieš %n minutčių</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <location filename="../bitcoingui.cpp" line="563"/>
+        <source>%n hour(s) ago</source>
+        <translation><numerusform>Prieš %n valandą</numerusform><numerusform>Prieš %n valandas</numerusform><numerusform>Prieš %n valandų</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../bitcoingui.cpp" line="567"/>
+        <source>%n day(s) ago</source>
+        <translation><numerusform>Prieš %n dieną</numerusform><numerusform>Prieš %n dienas</numerusform><numerusform>Prieš %n dienų</numerusform></translation>
     </message>
     <message>
-        <source>%1 behind</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Klaida</translation>
-    </message>
-    <message>
-        <source>Warning</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation>Informacija</translation>
-    </message>
-    <message>
+        <location filename="../bitcoingui.cpp" line="573"/>
         <source>Up to date</source>
-        <translation>Atnaujinta</translation>
+        <translation>Iki šiol</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="580"/>
         <source>Catching up...</source>
-        <translation>Vejamasi...</translation>
+        <translation>Gaudo...</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="590"/>
+        <source>Last received block was generated %1.</source>
+        <translation>Paskutinis gautas blokas buvo sukurtas %1.</translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="649"/>
+        <source>This transaction is over the size limit.  You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?</source>
+        <translation>Šis sandoris viršija leistiną dydį.  Jūs galite įvykdyti jį papildomai sumokėję %1 mokesčių, kurie bus išsiųsti tais pačiais mazgais kuriais vyko sandoris ir padės palaikyti tinklą. Ar jūs norite apmokėti papildomą mokestį?</translation>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="654"/>
+        <source>Confirm transaction fee</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="681"/>
         <source>Sent transaction</source>
         <translation>Sandoris nusiųstas</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="682"/>
         <source>Incoming transaction</source>
         <translation>Ateinantis sandoris</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="683"/>
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -550,1746 +582,992 @@ Tipas: %3
 Adresas: %4</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="804"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Piniginė &lt;b&gt;užšifruota&lt;/b&gt; ir šiuo metu &lt;b&gt;atrakinta&lt;/b&gt;</translation>
     </message>
     <message>
+        <location filename="../bitcoingui.cpp" line="812"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Piniginė &lt;b&gt;užšifruota&lt;/b&gt; ir šiuo metu &lt;b&gt;užrakinta&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Fancycoin can no longer continue safely and will quit.</source>
+        <location filename="../bitcoingui.cpp" line="835"/>
+        <source>Backup Wallet</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="835"/>
+        <source>Wallet Data (*.dat)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="838"/>
+        <source>Backup Failed</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoingui.cpp" line="838"/>
+        <source>There was an error trying to save the wallet data to the new location.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoin.cpp" line="112"/>
+        <source>A fatal error occured. Bitcoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
+        <location filename="../clientmodel.cpp" line="84"/>
         <source>Network Alert</source>
-        <translation>Tinklo įspėjimas</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
-    <name>CoinControlDialog</name>
+    <name>DisplayOptionsPage</name>
     <message>
-        <source>Coin Control Address Selection</source>
+        <location filename="../optionsdialog.cpp" line="246"/>
+        <source>Display</source>
+        <translation>Ekranas</translation>
+    </message>
+    <message>
+        <location filename="../optionsdialog.cpp" line="257"/>
+        <source>default</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Quantity:</source>
+        <location filename="../optionsdialog.cpp" line="263"/>
+        <source>The user interface language can be set here. This setting will only take effect after restarting Bitcoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Bytes:</source>
+        <location filename="../optionsdialog.cpp" line="252"/>
+        <source>User Interface &amp;Language:</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Amount:</source>
-        <translation>Suma:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
+        <location filename="../optionsdialog.cpp" line="273"/>
+        <source>&amp;Unit to show amounts in:</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Fee:</source>
+        <location filename="../optionsdialog.cpp" line="277"/>
+        <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
+        <translation>Rodomų ir siunčiamų monetų kiekio matavimo vienetai</translation>
+    </message>
+    <message>
+        <location filename="../optionsdialog.cpp" line="284"/>
+        <source>&amp;Display addresses in transaction list</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Low Output:</source>
+        <location filename="../optionsdialog.cpp" line="285"/>
+        <source>Whether to show Bitcoin addresses in the transaction list</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>After Fee:</source>
+        <location filename="../optionsdialog.cpp" line="303"/>
+        <source>Warning</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Change:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>(un)select all</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Tree mode</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>List mode</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Suma</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Adresas</translation>
-    </message>
-    <message>
-        <source>Date</source>
-        <translation>Data</translation>
-    </message>
-    <message>
-        <source>Confirmations</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Confirmed</source>
-        <translation>Patvirtintas</translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Kopijuoti adresą</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Kopijuoti žymę</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopijuoti sumą</translation>
-    </message>
-    <message>
-        <source>Copy transaction ID</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Lock unspent</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Unlock unspent</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy after fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy priority</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy low output</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy change</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>highest</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>higher</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>high</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>medium-high</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>low-medium</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>low</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>lower</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>lowest</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>(%1 locked)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>none</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Dust</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>yes</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>no</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>This means a fee of at least %1 per kB is required.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Can vary +/- 1 byte per input.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>This label turns red, if the priority is smaller than &quot;medium&quot;.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>This means a fee of at least %1 is required.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Amounts below 0.546 times the minimum relay fee are shown as dust.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>This label turns red, if the change is smaller than %1.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(nėra žymės)</translation>
-    </message>
-    <message>
-        <source>change from %1 (%2)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>(change)</source>
+        <location filename="../optionsdialog.cpp" line="303"/>
+        <source>This setting will take effect after restarting Bitcoin.</source>
         <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
+        <location filename="../forms/editaddressdialog.ui" line="14"/>
         <source>Edit Address</source>
-        <translation>Keisti adresą</translation>
+        <translation>Redaguoti adresą</translation>
     </message>
     <message>
+        <location filename="../forms/editaddressdialog.ui" line="25"/>
         <source>&amp;Label</source>
-        <translation>Ž&amp;ymė</translation>
+        <translation>&amp;L Žymė</translation>
     </message>
     <message>
-        <source>The label associated with this address list entry</source>
-        <translation type="unfinished"/>
+        <location filename="../forms/editaddressdialog.ui" line="35"/>
+        <source>The label associated with this address book entry</source>
+        <translation>Žymė yra susieta su šios adresų knygelęs turiniu</translation>
     </message>
     <message>
-        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+        <location filename="../forms/editaddressdialog.ui" line="42"/>
         <source>&amp;Address</source>
         <translation>&amp;Adresas</translation>
     </message>
     <message>
+        <location filename="../forms/editaddressdialog.ui" line="52"/>
+        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
+        <translation>Adresas yra susietas su šios adresų knygelęs turiniu. Tai gali būti keičiama tik siuntimo adresams.</translation>
+    </message>
+    <message>
+        <location filename="../editaddressdialog.cpp" line="20"/>
         <source>New receiving address</source>
         <translation>Naujas gavimo adresas</translation>
     </message>
     <message>
+        <location filename="../editaddressdialog.cpp" line="24"/>
         <source>New sending address</source>
         <translation>Naujas siuntimo adresas</translation>
     </message>
     <message>
+        <location filename="../editaddressdialog.cpp" line="27"/>
         <source>Edit receiving address</source>
-        <translation>Keisti gavimo adresą</translation>
+        <translation>Taisyti gavimo adresą</translation>
     </message>
     <message>
+        <location filename="../editaddressdialog.cpp" line="31"/>
         <source>Edit sending address</source>
-        <translation>Keisti siuntimo adresą</translation>
+        <translation>Taisyti siuntimo adresą</translation>
     </message>
     <message>
+        <location filename="../editaddressdialog.cpp" line="91"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Įvestas adresas „%1“ jau yra adresų knygelėje.</translation>
+        <translation>Įvestas adresas &quot;%1&quot;yra adresų knygelėje</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Fancycoin address.</source>
-        <translation>Įvestas adresas „%1“ nėra galiojantis Fancycoin adresas.</translation>
+        <location filename="../editaddressdialog.cpp" line="96"/>
+        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../editaddressdialog.cpp" line="101"/>
         <source>Could not unlock wallet.</source>
-        <translation>Nepavyko atrakinti piniginės.</translation>
+        <translation>Neįmanoma atrakinti piniginės</translation>
     </message>
     <message>
+        <location filename="../editaddressdialog.cpp" line="106"/>
         <source>New key generation failed.</source>
-        <translation>Naujo rakto generavimas nepavyko.</translation>
+        <translation>Naujas raktas nesukurtas</translation>
     </message>
 </context>
 <context>
-    <name>FreespaceChecker</name>
+    <name>HelpMessageBox</name>
     <message>
-        <source>A new data directory will be created.</source>
+        <location filename="../bitcoin.cpp" line="133"/>
+        <location filename="../bitcoin.cpp" line="143"/>
+        <source>Bitcoin-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>name</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Path already exists, and is not a directory.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Cannot create data directory here.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-<context>
-    <name>HelpMessageDialog</name>
-    <message>
-        <source>Fancycoin Core - Command-line options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Fancycoin Core</source>
-        <translation>Fancycoin branduolys</translation>
-    </message>
-    <message>
+        <location filename="../bitcoin.cpp" line="133"/>
         <source>version</source>
-        <translation>versija</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoin.cpp" line="135"/>
         <source>Usage:</source>
         <translation>Naudojimas:</translation>
     </message>
     <message>
-        <source>command-line options</source>
-        <translation>komandinės eilutės parametrai</translation>
-    </message>
-    <message>
-        <source>UI options</source>
-        <translation>Naudotoji sąsajos parametrai</translation>
-    </message>
-    <message>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>Nustatyti kalbą, pavyzdžiui &quot;lt_LT&quot; (numatyta: sistemos kalba)</translation>
-    </message>
-    <message>
-        <source>Start minimized</source>
-        <translation>Paleisti sumažintą</translation>
-    </message>
-    <message>
-        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <location filename="../bitcoin.cpp" line="136"/>
+        <source>options</source>
         <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoin.cpp" line="138"/>
+        <source>UI options</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoin.cpp" line="139"/>
+        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoin.cpp" line="140"/>
+        <source>Start minimized</source>
+        <translation>Pradžia sumažinta</translation>
+    </message>
+    <message>
+        <location filename="../bitcoin.cpp" line="141"/>
         <source>Show splash screen on startup (default: 1)</source>
         <translation type="unfinished"/>
     </message>
+</context>
+<context>
+    <name>MainOptionsPage</name>
     <message>
-        <source>Choose data directory on startup (default: 0)</source>
+        <location filename="../optionsdialog.cpp" line="227"/>
+        <source>Detach block and address databases at shutdown. This means they can be moved to another data directory, but it slows down shutdown. The wallet is always detached.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../optionsdialog.cpp" line="212"/>
+        <source>Pay transaction &amp;fee</source>
+        <translation>&amp;f Mokėti sandorio mokestį</translation>
+    </message>
+    <message>
+        <location filename="../optionsdialog.cpp" line="204"/>
+        <source>Main</source>
+        <translation>Pagrindinis</translation>
+    </message>
+    <message>
+        <location filename="../optionsdialog.cpp" line="206"/>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
+        <translation>Neprivaloma sandorio mokestis už KB, kuris padeda įsitikinti, kad jūsų sandoriai tvarkomi greitai. Daugelis sandorių yra tik 1KB dydžio. Rekomenduojamas 0,01 mokestis.</translation>
+    </message>
+    <message>
+        <location filename="../optionsdialog.cpp" line="222"/>
+        <source>&amp;Start Bitcoin on system login</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../optionsdialog.cpp" line="223"/>
+        <source>Automatically start Bitcoin after logging in to the system</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../optionsdialog.cpp" line="226"/>
+        <source>&amp;Detach databases at shutdown</source>
         <translation type="unfinished"/>
     </message>
 </context>
 <context>
-    <name>Intro</name>
+    <name>MessagePage</name>
     <message>
-        <source>Welcome</source>
-        <translation>Sveiki</translation>
-    </message>
-    <message>
-        <source>Welcome to Fancycoin Core.</source>
+        <location filename="../forms/messagepage.ui" line="14"/>
+        <source>Sign Message</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Fancycoin Core will store its data.</source>
+        <location filename="../forms/messagepage.ui" line="20"/>
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Fancycoin Core will download and store a copy of the Fancycoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <location filename="../forms/messagepage.ui" line="38"/>
+        <source>The address to sign the message with  (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Use the default data directory</source>
+        <location filename="../forms/messagepage.ui" line="48"/>
+        <source>Choose adress from address book</source>
+        <translation>Pasirinkite adresą iš adresų knygelės</translation>
+    </message>
+    <message>
+        <location filename="../forms/messagepage.ui" line="58"/>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <location filename="../forms/messagepage.ui" line="71"/>
+        <source>Paste address from clipboard</source>
+        <translation>Įvesti adresą iš mainų atminties</translation>
+    </message>
+    <message>
+        <location filename="../forms/messagepage.ui" line="81"/>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <location filename="../forms/messagepage.ui" line="93"/>
+        <source>Enter the message you want to sign here</source>
+        <translation>Įveskite pranešimą, kurį norite pasirašyti čia</translation>
+    </message>
+    <message>
+        <location filename="../forms/messagepage.ui" line="128"/>
+        <source>Copy the current signature to the system clipboard</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Use a custom data directory:</source>
+        <location filename="../forms/messagepage.ui" line="131"/>
+        <source>&amp;Copy Signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Fancycoin</source>
-        <translation>Fancycoin</translation>
-    </message>
-    <message>
-        <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
+        <location filename="../forms/messagepage.ui" line="142"/>
+        <source>Reset all sign message fields</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Error</source>
-        <translation>Klaida</translation>
-    </message>
-    <message>
-        <source>GB of free space available</source>
+        <location filename="../forms/messagepage.ui" line="145"/>
+        <source>Clear &amp;All</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>(of %1GB needed)</source>
+        <location filename="../messagepage.cpp" line="31"/>
+        <source>Click &quot;Sign Message&quot; to get signature</source>
+        <translation>Spragtelėkite &quot;Registruotis žinutę&quot; tam, kad gauti parašą</translation>
+    </message>
+    <message>
+        <location filename="../forms/messagepage.ui" line="114"/>
+        <source>Sign a message to prove you own this address</source>
+        <translation>Registruotis žinute įrodymuii, kad turite šį adresą</translation>
+    </message>
+    <message>
+        <location filename="../forms/messagepage.ui" line="117"/>
+        <source>&amp;Sign Message</source>
+        <translation>&amp;S Registravimosi žinutė</translation>
+    </message>
+    <message>
+        <location filename="../messagepage.cpp" line="30"/>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Įveskite bitkoinų adresą (pvz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <location filename="../messagepage.cpp" line="83"/>
+        <location filename="../messagepage.cpp" line="90"/>
+        <location filename="../messagepage.cpp" line="105"/>
+        <location filename="../messagepage.cpp" line="117"/>
+        <source>Error signing</source>
+        <translation>Klaida pasirašant</translation>
+    </message>
+    <message>
+        <location filename="../messagepage.cpp" line="83"/>
+        <source>%1 is not a valid address.</source>
+        <translation>%1 tai negaliojantis adresas</translation>
+    </message>
+    <message>
+        <location filename="../messagepage.cpp" line="90"/>
+        <source>%1 does not refer to a key.</source>
         <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../messagepage.cpp" line="105"/>
+        <source>Private key for %1 is not available.</source>
+        <translation>Privataus rakto %1 nėra</translation>
+    </message>
+    <message>
+        <location filename="../messagepage.cpp" line="117"/>
+        <source>Sign failed</source>
+        <translation>Registravimas nepavyko</translation>
     </message>
 </context>
 <context>
-    <name>OpenURIDialog</name>
+    <name>NetworkOptionsPage</name>
     <message>
-        <source>Open URI</source>
+        <location filename="../optionsdialog.cpp" line="345"/>
+        <source>Network</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Open payment request from URI or file</source>
+        <location filename="../optionsdialog.cpp" line="347"/>
+        <source>Map port using &amp;UPnP</source>
+        <translation>Prievado struktūra  naudojant &amp; UPnP</translation>
+    </message>
+    <message>
+        <location filename="../optionsdialog.cpp" line="348"/>
+        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatiškai atidaryti Bitcoin kliento maršrutizatoriaus prievadą. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+    </message>
+    <message>
+        <location filename="../optionsdialog.cpp" line="351"/>
+        <source>&amp;Connect through SOCKS4 proxy:</source>
+        <translation>&amp;C Jungtis per socks4 proxy:</translation>
+    </message>
+    <message>
+        <location filename="../optionsdialog.cpp" line="352"/>
+        <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
+        <translation>Jungtis į Bitkoin tinklą per  socks4 proxy (pvz. jungiantis per Tor)</translation>
+    </message>
+    <message>
+        <location filename="../optionsdialog.cpp" line="357"/>
+        <source>Proxy &amp;IP:</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>URI:</source>
+        <location filename="../optionsdialog.cpp" line="366"/>
+        <source>&amp;Port:</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Select payment request file</source>
-        <translation type="unfinished"/>
+        <location filename="../optionsdialog.cpp" line="363"/>
+        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
+        <translation>IP adresas proxy (pvz. 127.0.0.1)</translation>
     </message>
     <message>
-        <source>Select payment request file to open</source>
-        <translation type="unfinished"/>
+        <location filename="../optionsdialog.cpp" line="372"/>
+        <source>Port of the proxy (e.g. 1234)</source>
+        <translation>Proxy prievadas (pvz. 1234)</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
+        <location filename="../optionsdialog.cpp" line="135"/>
         <source>Options</source>
-        <translation>Parinktys</translation>
-    </message>
-    <message>
-        <source>&amp;Main</source>
-        <translation>&amp;Pagrindinės</translation>
-    </message>
-    <message>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Pay transaction &amp;fee</source>
-        <translation>&amp;Mokėti sandorio mokestį</translation>
-    </message>
-    <message>
-        <source>Automatically start Fancycoin after logging in to the system.</source>
-        <translation>Automatiškai paleisti Bitkoin programą įjungus sistemą.</translation>
-    </message>
-    <message>
-        <source>&amp;Start Fancycoin on system login</source>
-        <translation>&amp;Paleisti Fancycoin programą su window sistemos paleidimu</translation>
-    </message>
-    <message>
-        <source>Size of &amp;database cache</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>MB</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Number of script &amp;verification threads</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Connect to the Fancycoin network through a SOCKS proxy.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Third party transaction URLs</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Active command-line options that override above options:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Reset all client options to default.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>&amp;Reset Options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>&amp;Network</source>
-        <translation>&amp;Tinklas</translation>
-    </message>
-    <message>
-        <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>W&amp;allet</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Expert</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Enable coin &amp;control features</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>&amp;Spend unconfirmed change</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Automatically open the Fancycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatiškai atidaryti Fancycoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
-    </message>
-    <message>
-        <source>Map port using &amp;UPnP</source>
-        <translation>Persiųsti prievadą naudojant &amp;UPnP</translation>
-    </message>
-    <message>
-        <source>Proxy &amp;IP:</source>
-        <translation>Tarpinio serverio &amp;IP:</translation>
-    </message>
-    <message>
-        <source>&amp;Port:</source>
-        <translation>&amp;Prievadas:</translation>
-    </message>
-    <message>
-        <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Tarpinio serverio preivadas (pvz, 9050)</translation>
-    </message>
-    <message>
-        <source>SOCKS &amp;Version:</source>
-        <translation>SOCKS &amp;versija:</translation>
-    </message>
-    <message>
-        <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation>Tarpinio serverio SOCKS versija (pvz., 5)</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;Langas</translation>
-    </message>
-    <message>
-        <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Po programos lango sumažinimo rodyti tik programos ikoną.</translation>
-    </message>
-    <message>
-        <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;M sumažinti langą bet ne užduočių juostą</translation>
-    </message>
-    <message>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Uždarant langą neuždaryti programos. Kai ši parinktis įjungta, programa bus uždaryta tik pasirinkus  meniu komandą Baigti.</translation>
-    </message>
-    <message>
-        <source>M&amp;inimize on close</source>
-        <translation>&amp;Sumažinti uždarant</translation>
-    </message>
-    <message>
-        <source>&amp;Display</source>
-        <translation>&amp;Rodymas</translation>
-    </message>
-    <message>
-        <source>User Interface &amp;language:</source>
-        <translation>Naudotojo sąsajos &amp;kalba:</translation>
-    </message>
-    <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Fancycoin.</source>
-        <translation>Čia gali būti nustatyta naudotojo sąsajos kalba. Šis nustatymas įsigalios iš naujo paleidus Fancycoin.</translation>
-    </message>
-    <message>
-        <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Vienetai, kuriais rodyti sumas:</translation>
-    </message>
-    <message>
-        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Rodomų ir siunčiamų monetų kiekio matavimo vienetai</translation>
-    </message>
-    <message>
-        <source>Whether to show Fancycoin addresses in the transaction list or not.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation>&amp;Rodyti adresus sandorių sąraše</translation>
-    </message>
-    <message>
-        <source>Whether to show coin control features or not.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>&amp;OK</source>
-        <translation>&amp;Gerai</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation>&amp;Atšaukti</translation>
-    </message>
-    <message>
-        <source>default</source>
-        <translation>numatyta</translation>
-    </message>
-    <message>
-        <source>none</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Confirm options reset</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Client restart required to activate changes.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Client will be shutdown, do you want to proceed?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>This change would require a client restart.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>The supplied proxy address is invalid.</source>
-        <translation>Nurodytas tarpinio serverio adresas negalioja.</translation>
+        <translation>Opcijos</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
+        <location filename="../forms/overviewpage.ui" line="14"/>
         <source>Form</source>
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fancycoin network after a connection is established, but this process has not completed yet.</source>
+        <location filename="../forms/overviewpage.ui" line="47"/>
+        <location filename="../forms/overviewpage.ui" line="204"/>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../forms/overviewpage.ui" line="89"/>
+        <source>Balance:</source>
+        <translation>Balansas</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="147"/>
+        <source>Number of transactions:</source>
+        <translation>Sandorių kiekis</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="118"/>
+        <source>Unconfirmed:</source>
+        <translation>Nepatvirtinti:</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="40"/>
         <source>Wallet</source>
-        <translation>Piniginė</translation>
-    </message>
-    <message>
-        <source>Available:</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Your current spendable balance</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Pending:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Immature:</source>
-        <translation>Nepribrendę:</translation>
-    </message>
-    <message>
-        <source>Mined balance that has not yet matured</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Total:</source>
-        <translation>Viso:</translation>
-    </message>
-    <message>
-        <source>Your current total balance</source>
-        <translation>Jūsų balansas</translation>
-    </message>
-    <message>
+        <location filename="../forms/overviewpage.ui" line="197"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Naujausi sandoriai&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Naujausi sandoris&lt;/b&gt;</translation>
     </message>
     <message>
+        <location filename="../forms/overviewpage.ui" line="105"/>
+        <source>Your current balance</source>
+        <translation>Jūsų einamasis balansas</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="134"/>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
+        <translation>Iš viso sandorių, įskaitant tuos kurie dar turi būti patvirtinti, ir jie dar nėra įskaičiuotii į einamosios sąskaitos balansą</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="154"/>
+        <source>Total number of transactions in wallet</source>
+        <translation>Bandras sandorių kiekis piniginėje</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="110"/>
+        <location filename="../overviewpage.cpp" line="111"/>
         <source>out of sync</source>
-        <translation>nesinchronizuota</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
-    <name>PaymentServer</name>
+    <name>QRCodeDialog</name>
     <message>
-        <source>URI handling</source>
-        <translation>URI apdorojimas</translation>
-    </message>
-    <message>
-        <source>URI can not be parsed! This can be caused by an invalid Fancycoin address or malformed URI parameters.</source>
+        <location filename="../forms/qrcodedialog.ui" line="14"/>
+        <source>QR Code Dialog</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <location filename="../forms/qrcodedialog.ui" line="32"/>
+        <source>QR Code</source>
+        <translation>QR kodas</translation>
+    </message>
+    <message>
+        <location filename="../forms/qrcodedialog.ui" line="55"/>
+        <source>Request Payment</source>
+        <translation>Prašau išmokėti</translation>
+    </message>
+    <message>
+        <location filename="../forms/qrcodedialog.ui" line="70"/>
+        <source>Amount:</source>
+        <translation>Suma:</translation>
+    </message>
+    <message>
+        <location filename="../forms/qrcodedialog.ui" line="105"/>
+        <source>BTC</source>
+        <translation>BTC</translation>
+    </message>
+    <message>
+        <location filename="../forms/qrcodedialog.ui" line="121"/>
+        <source>Label:</source>
+        <translation>Žymė:</translation>
+    </message>
+    <message>
+        <location filename="../forms/qrcodedialog.ui" line="144"/>
+        <source>Message:</source>
+        <translation>Žinutė:</translation>
+    </message>
+    <message>
+        <location filename="../forms/qrcodedialog.ui" line="186"/>
+        <source>&amp;Save As...</source>
+        <translation>&amp;S išsaugoti kaip...</translation>
+    </message>
+    <message>
+        <location filename="../qrcodedialog.cpp" line="45"/>
+        <source>Error encoding URI into QR Code.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Payment request error</source>
+        <location filename="../qrcodedialog.cpp" line="63"/>
+        <source>Resulting URI too long, try to reduce the text for label / message.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot start Fancycoin: click-to-pay handler</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Net manager warning</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Your active proxy doesn&apos;t support SOCKS5, which is required for payment requests via proxy.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Payment request fetch URL is invalid: %1</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Payment request file handling</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Payment request file can not be read or processed! This can be caused by an invalid payment request file.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Refund from %1</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Error communicating with %1: %2</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Payment request can not be parsed or processed!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Bad response from server %1</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Payment acknowledged</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Network request error</source>
-        <translation>Tinklo užklausos klaida</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <source>Fancycoin</source>
-        <translation>Fancycoin</translation>
-    </message>
-    <message>
-        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Error: Invalid combination of -regtest and -testnet.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Fancycoin Core didn&apos;t yet exit safely...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Enter a Fancycoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Įveskite bitkoinų adresą (pvz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-</context>
-<context>
-    <name>QRImageWidget</name>
-    <message>
-        <source>&amp;Save Image...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>&amp;Copy Image</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+        <location filename="../qrcodedialog.cpp" line="120"/>
         <source>Save QR Code</source>
-        <translation>Įrašyti QR kodą</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>PNG Image (*.png)</source>
+        <location filename="../qrcodedialog.cpp" line="120"/>
+        <source>PNG Images (*.png)</source>
         <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
+        <location filename="../forms/rpcconsole.ui" line="14"/>
+        <source>Bitcoin debug window</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="46"/>
         <source>Client name</source>
-        <translation>Kliento pavadinimas</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../forms/rpcconsole.ui" line="56"/>
+        <location filename="../forms/rpcconsole.ui" line="79"/>
+        <location filename="../forms/rpcconsole.ui" line="102"/>
+        <location filename="../forms/rpcconsole.ui" line="125"/>
+        <location filename="../forms/rpcconsole.ui" line="161"/>
+        <location filename="../forms/rpcconsole.ui" line="214"/>
+        <location filename="../forms/rpcconsole.ui" line="237"/>
+        <location filename="../forms/rpcconsole.ui" line="260"/>
+        <location filename="../rpcconsole.cpp" line="245"/>
         <source>N/A</source>
-        <translation>nėra</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../forms/rpcconsole.ui" line="69"/>
         <source>Client version</source>
-        <translation>Kliento versija</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../forms/rpcconsole.ui" line="24"/>
         <source>&amp;Information</source>
-        <translation>&amp;Informacija</translation>
-    </message>
-    <message>
-        <source>Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>General</source>
+        <location filename="../forms/rpcconsole.ui" line="39"/>
+        <source>Client</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Using OpenSSL version</source>
-        <translation>Naudojama OpenSSL versija</translation>
-    </message>
-    <message>
+        <location filename="../forms/rpcconsole.ui" line="115"/>
         <source>Startup time</source>
-        <translation>Paleidimo laikas</translation>
-    </message>
-    <message>
-        <source>Network</source>
-        <translation>Tinklas</translation>
-    </message>
-    <message>
-        <source>Name</source>
         <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../forms/rpcconsole.ui" line="144"/>
+        <source>Network</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="151"/>
         <source>Number of connections</source>
-        <translation>Prisijungimų kiekis</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../forms/rpcconsole.ui" line="174"/>
+        <source>On testnet</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="197"/>
         <source>Block chain</source>
-        <translation>Blokų grandinė</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../forms/rpcconsole.ui" line="204"/>
         <source>Current number of blocks</source>
-        <translation>Dabartinis blokų skaičius</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../forms/rpcconsole.ui" line="227"/>
         <source>Estimated total blocks</source>
         <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../forms/rpcconsole.ui" line="250"/>
         <source>Last block time</source>
-        <translation>Paskutinio bloko laikas</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../forms/rpcconsole.ui" line="292"/>
+        <source>Debug logfile</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="299"/>
+        <source>Open the Bitcoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="302"/>
         <source>&amp;Open</source>
-        <translation>&amp;Atverti</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../forms/rpcconsole.ui" line="323"/>
         <source>&amp;Console</source>
-        <translation>&amp;Konsolė</translation>
-    </message>
-    <message>
-        <source>&amp;Network Traffic</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;Clear</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Totals</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>In:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Out:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+        <location filename="../forms/rpcconsole.ui" line="92"/>
         <source>Build date</source>
-        <translation>Kompiliavimo data</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>Derinimo žurnalo failas</translation>
-    </message>
-    <message>
-        <source>Open the Fancycoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../forms/rpcconsole.ui" line="372"/>
         <source>Clear console</source>
-        <translation>Išvalyti konsolę</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Welcome to the Fancycoin RPC console.</source>
-        <translation>Sveiki atvykę į Fancycoin RPC konsolę.</translation>
+        <location filename="../rpcconsole.cpp" line="212"/>
+        <source>Welcome to the Bitcoin RPC console.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../rpcconsole.cpp" line="213"/>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../rpcconsole.cpp" line="214"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>%1 B</source>
-        <translation>%1 B</translation>
-    </message>
-    <message>
-        <source>%1 KB</source>
-        <translation>%1 KB</translation>
-    </message>
-    <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
-    </message>
-    <message>
-        <source>%1 GB</source>
-        <translation>%1 GB</translation>
-    </message>
-    <message>
-        <source>%1 m</source>
-        <translation>%1 m</translation>
-    </message>
-    <message>
-        <source>%1 h</source>
-        <translation>%1 h</translation>
-    </message>
-    <message>
-        <source>%1 h %2 m</source>
-        <translation>%1 h %2 m</translation>
-    </message>
-</context>
-<context>
-    <name>ReceiveCoinsDialog</name>
-    <message>
-        <source>&amp;Amount:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>Ž&amp;ymė:</translation>
-    </message>
-    <message>
-        <source>&amp;Message:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Fancycoin network.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>An optional label to associate with the new receiving address.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Clear all fields of the form.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Clear</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Requested payments history</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>&amp;Request payment</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Show</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Remove the selected entries from the list</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Kopijuoti žymę</translation>
-    </message>
-    <message>
-        <source>Copy message</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopijuoti sumą</translation>
-    </message>
-</context>
-<context>
-    <name>ReceiveRequestDialog</name>
-    <message>
-        <source>QR Code</source>
-        <translation>QR kodas</translation>
-    </message>
-    <message>
-        <source>Copy &amp;URI</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy &amp;Address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>&amp;Save Image...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Request payment to %1</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Payment information</source>
-        <translation>Mokėjimo informacija</translation>
-    </message>
-    <message>
-        <source>URI</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Adresas</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Suma</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Žymė</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Žinutė</translation>
-    </message>
-    <message>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Error encoding URI into QR Code.</source>
-        <translation>Klaida, koduojant URI į QR kodą.</translation>
-    </message>
-</context>
-<context>
-    <name>RecentRequestsTableModel</name>
-    <message>
-        <source>Date</source>
-        <translation>Data</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Žymė</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Žinutė</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Suma</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(nėra žymės)</translation>
-    </message>
-    <message>
-        <source>(no message)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>(no amount)</source>
         <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="14"/>
+        <location filename="../sendcoinsdialog.cpp" line="122"/>
+        <location filename="../sendcoinsdialog.cpp" line="127"/>
+        <location filename="../sendcoinsdialog.cpp" line="132"/>
+        <location filename="../sendcoinsdialog.cpp" line="137"/>
+        <location filename="../sendcoinsdialog.cpp" line="143"/>
+        <location filename="../sendcoinsdialog.cpp" line="148"/>
+        <location filename="../sendcoinsdialog.cpp" line="153"/>
         <source>Send Coins</source>
         <translation>Siųsti monetas</translation>
     </message>
     <message>
-        <source>Coin Control Features</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Inputs...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>automatically selected</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Suma:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Low Output:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Custom change address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="64"/>
         <source>Send to multiple recipients at once</source>
         <translation>Siųsti keliems gavėjams vienu metu</translation>
     </message>
     <message>
-        <source>Add &amp;Recipient</source>
-        <translation>&amp;A Pridėti gavėją</translation>
-    </message>
-    <message>
-        <source>Clear all fields of the form.</source>
+        <location filename="../forms/sendcoinsdialog.ui" line="67"/>
+        <source>&amp;Add Recipient</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Clear &amp;All</source>
-        <translation>Išvalyti &amp;viską</translation>
+        <location filename="../forms/sendcoinsdialog.ui" line="84"/>
+        <source>Remove all transaction fields</source>
+        <translation>Pašalinti visus sandorio laukus</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="87"/>
+        <source>Clear &amp;All</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="106"/>
         <source>Balance:</source>
         <translation>Balansas:</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="113"/>
+        <source>123.456 BTC</source>
+        <translation>123.456 BTC</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="144"/>
         <source>Confirm the send action</source>
         <translation>Patvirtinti siuntimo veiksmą</translation>
     </message>
     <message>
-        <source>S&amp;end</source>
+        <location filename="../forms/sendcoinsdialog.ui" line="147"/>
+        <source>&amp;Send</source>
         <translation>&amp;Siųsti</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="94"/>
+        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
+        <translation>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="99"/>
         <source>Confirm send coins</source>
-        <translation>Patvirtinti monetų siuntimą</translation>
+        <translation>Patvirtinti siuntimui monetas</translation>
     </message>
     <message>
-        <source>%1 to %2</source>
-        <translation type="unfinished"/>
+        <location filename="../sendcoinsdialog.cpp" line="100"/>
+        <source>Are you sure you want to send %1?</source>
+        <translation>Ar esate įsitikinę, kad norite siųsti %1?</translation>
     </message>
     <message>
-        <source>Copy quantity</source>
-        <translation type="unfinished"/>
+        <location filename="../sendcoinsdialog.cpp" line="100"/>
+        <source> and </source>
+        <translation>ir</translation>
     </message>
     <message>
-        <source>Copy amount</source>
-        <translation>Kopijuoti sumą</translation>
-    </message>
-    <message>
-        <source>Copy fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy after fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy priority</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy low output</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy change</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Total Amount %1 (= %2)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>or</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>The recipient address is not valid, please recheck.</source>
+        <location filename="../sendcoinsdialog.cpp" line="123"/>
+        <source>The recepient address is not valid, please recheck.</source>
         <translation>Negaliojantis gavėjo adresas. Patikrinkite.</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="128"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Apmokėjimo suma turi būti didesnė nei 0.</translation>
+        <translation>Apmokėjimo suma turi būti didesnė negu 0.</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="133"/>
         <source>The amount exceeds your balance.</source>
-        <translation>Suma viršija jūsų balansą.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="138"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Jei pridedame sandorio mokestį %1 bendra suma viršija jūsų balansą.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="144"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Rastas adreso dublikatas.</translation>
-    </message>
-    <message>
-        <source>Transaction creation failed!</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <location filename="../sendcoinsdialog.cpp" line="149"/>
+        <source>Error: Transaction creation failed.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Invalid Fancycoin address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(nėra žymės)</translation>
-    </message>
-    <message>
-        <source>Warning: Unknown change address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Are you sure you want to send?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>added as transaction fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Payment request expired</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Invalid payment address %1</source>
+        <location filename="../sendcoinsdialog.cpp" line="154"/>
+        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="14"/>
+        <source>Form</source>
+        <translation>Forma</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsentry.ui" line="29"/>
         <source>A&amp;mount:</source>
         <translation>Su&amp;ma:</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="42"/>
         <source>Pay &amp;To:</source>
-        <translation>Mokėti &amp;gavėjui:</translation>
+        <translation>Mokėti &amp;T gavėjui:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+        <location filename="../forms/sendcoinsentry.ui" line="66"/>
+        <location filename="../sendcoinsentry.cpp" line="25"/>
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Įveskite žymę šiam adresui kad galėtumėte įtraukti ją į adresų knygelę</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="75"/>
         <source>&amp;Label:</source>
-        <translation>Ž&amp;ymė:</translation>
+        <translation>&amp;L žymė:</translation>
     </message>
     <message>
-        <source>Choose previously used address</source>
-        <translation type="unfinished"/>
+        <location filename="../forms/sendcoinsentry.ui" line="93"/>
+        <source>The address to send the payment to  (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Adresas mokėjimo siuntimui (pvz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
-        <source>This is a normal payment.</source>
-        <translation type="unfinished"/>
+        <location filename="../forms/sendcoinsentry.ui" line="103"/>
+        <source>Choose address from address book</source>
+        <translation>Pasirinkite adresą iš adresų knygelės</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="113"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="120"/>
         <source>Paste address from clipboard</source>
         <translation>Įvesti adresą iš mainų atminties</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="130"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Remove this entry</source>
-        <translation type="unfinished"/>
+        <location filename="../forms/sendcoinsentry.ui" line="137"/>
+        <source>Remove this recipient</source>
+        <translation>Pašalinti šitą gavėją</translation>
     </message>
     <message>
-        <source>Message:</source>
-        <translation>Žinutė:</translation>
-    </message>
-    <message>
-        <source>This is a verified payment request.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>A message that was attached to the Fancycoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fancycoin network.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>This is an unverified payment request.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Pay To:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Memo:</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-<context>
-    <name>ShutdownWindow</name>
-    <message>
-        <source>Fancycoin Core is shutting down...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Do not shut down the computer until this window disappears.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-<context>
-    <name>SignVerifyMessageDialog</name>
-    <message>
-        <source>Signatures - Sign / Verify a Message</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>&amp;Sign Message</source>
-        <translation>&amp;Pasirašyti žinutę</translation>
-    </message>
-    <message>
-        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <location filename="../sendcoinsentry.cpp" line="26"/>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>Įveskite bitkoinų adresą (pvz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Įvesti adresą iš mainų atminties</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Enter the message you want to sign here</source>
-        <translation>Įveskite pranešimą, kurį norite pasirašyti čia</translation>
-    </message>
-    <message>
-        <source>Signature</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy the current signature to the system clipboard</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Sign the message to prove you own this Fancycoin address</source>
-        <translation>Registruotis žinute įrodymuii, kad turite šį adresą</translation>
-    </message>
-    <message>
-        <source>Sign &amp;Message</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Reset all sign message fields</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Clear &amp;All</source>
-        <translation>Išvalyti &amp;viską</translation>
-    </message>
-    <message>
-        <source>&amp;Verify Message</source>
-        <translation>&amp;Patikrinti žinutę</translation>
-    </message>
-    <message>
-        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Įveskite bitkoinų adresą (pvz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Fancycoin address</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Fancycoin adresas</translation>
-    </message>
-    <message>
-        <source>Verify &amp;Message</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Reset all verify message fields</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Enter a Fancycoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Įveskite bitkoinų adresą (pvz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Spragtelėkite &quot;Registruotis žinutę&quot; tam, kad gauti parašą</translation>
-    </message>
-    <message>
-        <source>The entered address is invalid.</source>
-        <translation>Įvestas adresas negalioja.</translation>
-    </message>
-    <message>
-        <source>Please check the address and try again.</source>
-        <translation>Prašom patikrinti adresą ir bandyti iš naujo.</translation>
-    </message>
-    <message>
-        <source>The entered address does not refer to a key.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Wallet unlock was cancelled.</source>
-        <translation>Piniginės atrakinimas atšauktas.</translation>
-    </message>
-    <message>
-        <source>Private key for the entered address is not available.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Message signing failed.</source>
-        <translation>Žinutės pasirašymas nepavyko.</translation>
-    </message>
-    <message>
-        <source>Message signed.</source>
-        <translation>Žinutė pasirašyta.</translation>
-    </message>
-    <message>
-        <source>The signature could not be decoded.</source>
-        <translation>Nepavyko iškoduoti parašo.</translation>
-    </message>
-    <message>
-        <source>Please check the signature and try again.</source>
-        <translation>Prašom patikrinti parašą ir bandyti iš naujo.</translation>
-    </message>
-    <message>
-        <source>The signature did not match the message digest.</source>
-        <translation>Parašas neatitinka žinutės.</translation>
-    </message>
-    <message>
-        <source>Message verification failed.</source>
-        <translation>Žinutės tikrinimas nepavyko.</translation>
-    </message>
-    <message>
-        <source>Message verified.</source>
-        <translation>Žinutė patikrinta.</translation>
-    </message>
-</context>
-<context>
-    <name>SplashScreen</name>
-    <message>
-        <source>Fancycoin Core</source>
-        <translation>Fancycoin branduolys</translation>
-    </message>
-    <message>
-        <source>The Bitcoin and Fancycoin Core developers</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>[testnet]</source>
-        <translation>[testavimotinklas]</translation>
-    </message>
-</context>
-<context>
-    <name>TrafficGraphWidget</name>
-    <message>
-        <source>KB/s</source>
-        <translation>KB/s</translation>
     </message>
 </context>
 <context>
     <name>TransactionDesc</name>
     <message>
+        <location filename="../transactiondesc.cpp" line="21"/>
+        <source>Open for %1 blocks</source>
+        <translation>Atidaryta %1 blokams</translation>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="23"/>
         <source>Open until %1</source>
         <translation>Atidaryta iki %1</translation>
     </message>
     <message>
-        <source>conflicted</source>
-        <translation type="unfinished"/>
+        <location filename="../transactiondesc.cpp" line="29"/>
+        <source>%1/offline?</source>
+        <translation>%1/atjungtas?</translation>
     </message>
     <message>
-        <source>%1/offline</source>
-        <translation>%1/neprisijungęs</translation>
-    </message>
-    <message>
+        <location filename="../transactiondesc.cpp" line="31"/>
         <source>%1/unconfirmed</source>
         <translation>%1/nepatvirtintas</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="33"/>
         <source>%1 confirmations</source>
-        <translation>%1 patvirtinimų</translation>
+        <translation>%1 patvirtinimai</translation>
     </message>
     <message>
-        <source>Status</source>
-        <translation>Būsena</translation>
-    </message>
-    <message numerus="yes">
-        <source>, broadcast through %n node(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <location filename="../transactiondesc.cpp" line="51"/>
+        <source>&lt;b&gt;Status:&lt;/b&gt; </source>
+        <translation>&lt;b&gt;Būsena:&lt;/b&gt; </translation>
     </message>
     <message>
-        <source>Date</source>
-        <translation>Data</translation>
-    </message>
-    <message>
-        <source>Source</source>
-        <translation>Šaltinis</translation>
-    </message>
-    <message>
-        <source>Generated</source>
-        <translation>Sugeneruotas</translation>
-    </message>
-    <message>
-        <source>From</source>
-        <translation>Nuo</translation>
-    </message>
-    <message>
-        <source>To</source>
-        <translation>Kam</translation>
-    </message>
-    <message>
-        <source>own address</source>
-        <translation>savo adresas</translation>
-    </message>
-    <message>
-        <source>label</source>
-        <translation>žymė</translation>
-    </message>
-    <message>
-        <source>Credit</source>
-        <translation>Kreditas</translation>
-    </message>
-    <message numerus="yes">
-        <source>matures in %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <source>not accepted</source>
-        <translation>nepriimta</translation>
-    </message>
-    <message>
-        <source>Debit</source>
-        <translation>Debitas</translation>
-    </message>
-    <message>
-        <source>Transaction fee</source>
-        <translation>Sandorio mokestis</translation>
-    </message>
-    <message>
-        <source>Net amount</source>
-        <translation>Neto suma</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Žinutė</translation>
-    </message>
-    <message>
-        <source>Comment</source>
-        <translation>Komentaras</translation>
-    </message>
-    <message>
-        <source>Transaction ID</source>
-        <translation>Sandorio ID</translation>
-    </message>
-    <message>
-        <source>Merchant</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Debug information</source>
-        <translation>Derinimo informacija</translation>
-    </message>
-    <message>
-        <source>Transaction</source>
-        <translation>Sandoris</translation>
-    </message>
-    <message>
-        <source>Inputs</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Suma</translation>
-    </message>
-    <message>
-        <source>true</source>
-        <translation>tiesa</translation>
-    </message>
-    <message>
-        <source>false</source>
-        <translation>netiesa</translation>
-    </message>
-    <message>
+        <location filename="../transactiondesc.cpp" line="56"/>
         <source>, has not been successfully broadcast yet</source>
         <translation>, transliavimas dar nebuvo sėkmingas</translation>
     </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+    <message>
+        <location filename="../transactiondesc.cpp" line="58"/>
+        <source>, broadcast through %1 node</source>
+        <translation>, transliuota per %1 mazgą</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="60"/>
+        <source>, broadcast through %1 nodes</source>
+        <translation>, transliuota per %1 mazgus</translation>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="64"/>
+        <source>&lt;b&gt;Date:&lt;/b&gt; </source>
+        <translation>&lt;b&gt;Data:&lt;/b&gt; </translation>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="71"/>
+        <source>&lt;b&gt;Source:&lt;/b&gt; Generated&lt;br&gt;</source>
+        <translation>&lt;b&gt;Šaltinis:&lt;/b&gt; Sukurta&lt;br&gt;</translation>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="77"/>
+        <location filename="../transactiondesc.cpp" line="94"/>
+        <source>&lt;b&gt;From:&lt;/b&gt; </source>
+        <translation>&lt;b&gt;Nuo:&lt;/b&gt; </translation>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="94"/>
         <source>unknown</source>
         <translation>nežinomas</translation>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="95"/>
+        <location filename="../transactiondesc.cpp" line="118"/>
+        <location filename="../transactiondesc.cpp" line="178"/>
+        <source>&lt;b&gt;To:&lt;/b&gt; </source>
+        <translation>&lt;b&gt;Skirta:&lt;/b&gt; </translation>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="98"/>
+        <source> (yours, label: </source>
+        <translation> (jūsų, žymė: </translation>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="100"/>
+        <source> (yours)</source>
+        <translation> (jūsų)</translation>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="136"/>
+        <location filename="../transactiondesc.cpp" line="150"/>
+        <location filename="../transactiondesc.cpp" line="195"/>
+        <location filename="../transactiondesc.cpp" line="212"/>
+        <source>&lt;b&gt;Credit:&lt;/b&gt; </source>
+        <translation>&lt;b&gt;Kreditas:&lt;/b&gt; </translation>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="138"/>
+        <source>(%1 matures in %2 more blocks)</source>
+        <translation>(%1 apmokėtinas %2 daugiau blokais)</translation>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="142"/>
+        <source>(not accepted)</source>
+        <translation>(nepriimta)</translation>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="186"/>
+        <location filename="../transactiondesc.cpp" line="194"/>
+        <location filename="../transactiondesc.cpp" line="209"/>
+        <source>&lt;b&gt;Debit:&lt;/b&gt; </source>
+        <translation>&lt;b&gt;Debitas:&lt;/b&gt; </translation>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="200"/>
+        <source>&lt;b&gt;Transaction fee:&lt;/b&gt; </source>
+        <translation>&lt;b&gt;Sandorio mokestis:&lt;/b&gt; </translation>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="216"/>
+        <source>&lt;b&gt;Net amount:&lt;/b&gt; </source>
+        <translation>&lt;b&gt;Neto suma:&lt;/b&gt; </translation>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="222"/>
+        <source>Message:</source>
+        <translation>Žinutė:</translation>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="224"/>
+        <source>Comment:</source>
+        <translation>Komentaras:</translation>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="226"/>
+        <source>Transaction ID:</source>
+        <translation>Sandorio ID:</translation>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="229"/>
+        <source>Generated coins must wait 120 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Išgautos monetos turi sulaukti 120 blokų, kol jos gali būti naudojamos. Kai sukūrėte šį bloką, jis buvo transliuojamas tinkle ir turėjo būti įtrauktas į blokų grandinę. Jei nepavyksta patekti į grandinę, bus pakeista į &quot;nepriėmė&quot;, o ne &quot;vartojamas&quot;. Tai kartais gali atsitikti, jei kitas mazgas per keletą sekundžių sukuria bloką po jūsų bloko.</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
+        <location filename="../forms/transactiondescdialog.ui" line="14"/>
         <source>Transaction details</source>
-        <translation>Sandorio detelės</translation>
+        <translation>Sandorio išsami informacija</translation>
     </message>
     <message>
+        <location filename="../forms/transactiondescdialog.ui" line="20"/>
         <source>This pane shows a detailed description of the transaction</source>
         <translation>Šis langas sandorio detalų aprašymą</translation>
     </message>
@@ -2297,102 +1575,117 @@ Adresas: %4</translation>
 <context>
     <name>TransactionTableModel</name>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="226"/>
         <source>Date</source>
         <translation>Data</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="226"/>
         <source>Type</source>
         <translation>Tipas</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="226"/>
         <source>Address</source>
         <translation>Adresas</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="226"/>
         <source>Amount</source>
         <translation>Suma</translation>
     </message>
-    <message>
-        <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation type="unfinished"/>
-    </message>
     <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <location filename="../transactiontablemodel.cpp" line="281"/>
+        <source>Open for %n block(s)</source>
+        <translation><numerusform>Atidaryta %n blokui</numerusform><numerusform>Atidaryta %n blokams</numerusform><numerusform>Atidaryta %n blokų</numerusform></translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="284"/>
         <source>Open until %1</source>
-        <translation>Atidaryta iki %1</translation>
+        <translation>Atidaryta kol %n</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="287"/>
+        <source>Offline (%1 confirmations)</source>
+        <translation>Atjungta (%1 patvirtinimai)</translation>
+    </message>
+    <message>
+        <location filename="../transactiontablemodel.cpp" line="290"/>
+        <source>Unconfirmed (%1 of %2 confirmations)</source>
+        <translation>Nepatvirtintos (%1 iš %2 patvirtinimų)</translation>
+    </message>
+    <message>
+        <location filename="../transactiontablemodel.cpp" line="293"/>
         <source>Confirmed (%1 confirmations)</source>
         <translation>Patvirtinta (%1 patvirtinimai)</translation>
     </message>
+    <message numerus="yes">
+        <location filename="../transactiontablemodel.cpp" line="301"/>
+        <source>Mined balance will be available in %n more blocks</source>
+        <translation><numerusform>Išgautas balansas bus pasiekiamas po %n bloko</numerusform><numerusform>Išgautas balansas bus pasiekiamas po %n blokų</numerusform><numerusform>Išgautas balansas bus pasiekiamas po %n blokų</numerusform></translation>
+    </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="307"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
         <translation>Šis blokas negautas nė vienu iš mazgų ir matomai nepriimtas</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="310"/>
         <source>Generated but not accepted</source>
         <translation>Išgauta bet nepriimta</translation>
     </message>
     <message>
-        <source>Offline</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Unconfirmed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Conflicted</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+        <location filename="../transactiontablemodel.cpp" line="353"/>
         <source>Received with</source>
         <translation>Gauta su</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="355"/>
         <source>Received from</source>
         <translation>Gauta iš</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="358"/>
         <source>Sent to</source>
         <translation>Siųsta </translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="360"/>
         <source>Payment to yourself</source>
         <translation>Mokėjimas sau</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="362"/>
         <source>Mined</source>
         <translation>Išgauta</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="400"/>
         <source>(n/a)</source>
         <translation>nepasiekiama</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="599"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
         <translation>Sandorio būklė. Užvedus pelės žymeklį ant šios srities matysite patvirtinimų skaičių.</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="601"/>
         <source>Date and time that the transaction was received.</source>
         <translation>Sandorio gavimo data ir laikas</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="603"/>
         <source>Type of transaction.</source>
-        <translation>Sandorio tipas.</translation>
+        <translation>Sandorio tipas</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="605"/>
         <source>Destination address of transaction.</source>
         <translation>Sandorio paskirties adresas</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="607"/>
         <source>Amount removed from or added to balance.</source>
         <translation>Suma pridėta ar išskaičiuota iš balanso</translation>
     </message>
@@ -2400,976 +1693,818 @@ Adresas: %4</translation>
 <context>
     <name>TransactionView</name>
     <message>
+        <location filename="../transactionview.cpp" line="55"/>
+        <location filename="../transactionview.cpp" line="71"/>
         <source>All</source>
         <translation>Visi</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="56"/>
         <source>Today</source>
         <translation>Šiandien</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="57"/>
         <source>This week</source>
         <translation>Šią savaitę</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="58"/>
         <source>This month</source>
         <translation>Šį mėnesį</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="59"/>
         <source>Last month</source>
         <translation>Paskutinį mėnesį</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="60"/>
         <source>This year</source>
         <translation>Šiais metais</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="61"/>
         <source>Range...</source>
-        <translation>Intervalas...</translation>
+        <translation>Grupė</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="72"/>
         <source>Received with</source>
         <translation>Gauta su</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="74"/>
         <source>Sent to</source>
         <translation>Išsiųsta</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="76"/>
         <source>To yourself</source>
         <translation>Skirta sau</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="77"/>
         <source>Mined</source>
         <translation>Išgauta</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="78"/>
         <source>Other</source>
         <translation>Kita</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="85"/>
         <source>Enter address or label to search</source>
         <translation>Įveskite adresą ar žymę į paiešką</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="92"/>
         <source>Min amount</source>
         <translation>Minimali suma</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="126"/>
         <source>Copy address</source>
         <translation>Kopijuoti adresą</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="127"/>
         <source>Copy label</source>
         <translation>Kopijuoti žymę</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="128"/>
         <source>Copy amount</source>
         <translation>Kopijuoti sumą</translation>
     </message>
     <message>
-        <source>Copy transaction ID</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+        <location filename="../transactionview.cpp" line="129"/>
         <source>Edit label</source>
         <translation>Taisyti žymę</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="130"/>
         <source>Show transaction details</source>
-        <translation>Rodyti sandėrio detales</translation>
-    </message>
-    <message>
-        <source>Export Transaction History</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Exporting Failed</source>
-        <translation type="unfinished"/>
+        <location filename="../transactionview.cpp" line="270"/>
+        <source>Export Transaction Data</source>
+        <translation>Sandorio duomenų eksportavimas</translation>
     </message>
     <message>
-        <source>There was an error trying to save the transaction history to %1.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Exporting Successful</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>The transaction history was successfully saved to %1.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+        <location filename="../transactionview.cpp" line="271"/>
         <source>Comma separated file (*.csv)</source>
         <translation>Kableliais atskirtų duomenų failas (*.csv)</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="279"/>
         <source>Confirmed</source>
         <translation>Patvirtintas</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="280"/>
         <source>Date</source>
         <translation>Data</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="281"/>
         <source>Type</source>
         <translation>Tipas</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="282"/>
         <source>Label</source>
         <translation>Žymė</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="283"/>
         <source>Address</source>
         <translation>Adresas</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="284"/>
         <source>Amount</source>
         <translation>Suma</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="285"/>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="289"/>
+        <source>Error exporting</source>
+        <translation>Eksportavimo klaida</translation>
+    </message>
+    <message>
+        <location filename="../transactionview.cpp" line="289"/>
+        <source>Could not write to file %1.</source>
+        <translation>Neįmanoma įrašyti į failą %1.</translation>
+    </message>
+    <message>
+        <location filename="../transactionview.cpp" line="384"/>
         <source>Range:</source>
         <translation>Grupė:</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="392"/>
         <source>to</source>
         <translation>skirta</translation>
     </message>
 </context>
 <context>
-    <name>WalletFrame</name>
+    <name>VerifyMessageDialog</name>
     <message>
-        <source>No wallet has been loaded.</source>
+        <location filename="../forms/verifymessagedialog.ui" line="14"/>
+        <source>Verify Signed Message</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/verifymessagedialog.ui" line="20"/>
+        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Bitcoin address used to sign the message.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/verifymessagedialog.ui" line="62"/>
+        <source>Verify a message and obtain the Bitcoin address used to sign the message</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/verifymessagedialog.ui" line="65"/>
+        <source>&amp;Verify Message</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/verifymessagedialog.ui" line="79"/>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>Kopijuoti pasirinktą adresą į sistemos mainų atmintį</translation>
+    </message>
+    <message>
+        <location filename="../forms/verifymessagedialog.ui" line="82"/>
+        <source>&amp;Copy Address</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/verifymessagedialog.ui" line="93"/>
+        <source>Reset all verify message fields</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/verifymessagedialog.ui" line="96"/>
+        <source>Clear &amp;All</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../verifymessagedialog.cpp" line="28"/>
+        <source>Enter Bitcoin signature</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../verifymessagedialog.cpp" line="29"/>
+        <source>Click &quot;Verify Message&quot; to obtain address</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../verifymessagedialog.cpp" line="55"/>
+        <location filename="../verifymessagedialog.cpp" line="62"/>
+        <source>Invalid Signature</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../verifymessagedialog.cpp" line="55"/>
+        <source>The signature could not be decoded. Please check the signature and try again.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../verifymessagedialog.cpp" line="62"/>
+        <source>The signature did not match the message digest. Please check the signature and try again.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../verifymessagedialog.cpp" line="72"/>
+        <source>Address not found in address book.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../verifymessagedialog.cpp" line="72"/>
+        <source>Address found in address book: %1</source>
         <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
-        <source>Send Coins</source>
-        <translation>Siųsti monetas</translation>
+        <location filename="../walletmodel.cpp" line="158"/>
+        <source>Sending...</source>
+        <translation>Siunčiama</translation>
     </message>
 </context>
 <context>
-    <name>WalletView</name>
+    <name>WindowOptionsPage</name>
     <message>
-        <source>&amp;Export</source>
-        <translation>&amp;Eksportuoti</translation>
-    </message>
-    <message>
-        <source>Export the data in the current tab to a file</source>
+        <location filename="../optionsdialog.cpp" line="313"/>
+        <source>Window</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Backup Wallet</source>
+        <location filename="../optionsdialog.cpp" line="316"/>
+        <source>&amp;Minimize to the tray instead of the taskbar</source>
+        <translation>&amp;M sumažinti langą bet ne užduočių juostą</translation>
+    </message>
+    <message>
+        <location filename="../optionsdialog.cpp" line="317"/>
+        <source>Show only a tray icon after minimizing the window</source>
+        <translation>Po programos lango sumažinimo rodyti tik programos ikoną.</translation>
+    </message>
+    <message>
+        <location filename="../optionsdialog.cpp" line="320"/>
+        <source>M&amp;inimize on close</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Wallet Data (*.dat)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Backup Failed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>There was an error trying to save the wallet data to %1.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>The wallet data was successfully saved to %1.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Backup Successful</source>
-        <translation>Atsarginė kopija sėkmingai padaryta</translation>
+        <location filename="../optionsdialog.cpp" line="321"/>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
+        <translation>Uždarant langą neuždaryti programos. Kai ši parinktis įjungta, programa bus uždaryta tik pasirinkus  meniu komandą Baigti.</translation>
     </message>
 </context>
 <context>
     <name>bitcoin-core</name>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="43"/>
+        <source>Bitcoin version</source>
+        <translation>Bitcoin versija</translation>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="44"/>
         <source>Usage:</source>
         <translation>Naudojimas:</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="45"/>
+        <source>Send command to -server or bitcoind</source>
+        <translation>Siųsti komandą serveriui arba bitcoind</translation>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="46"/>
         <source>List commands</source>
         <translation>Komandų sąrašas</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>Get help for a command</source>
         <translation>Suteikti pagalba komandai</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="49"/>
         <source>Options:</source>
-        <translation>Parinktys:</translation>
+        <translation>Opcijos:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: Fancycoin.conf)</source>
-        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: Fancycoin.conf)</translation>
+        <location filename="../bitcoinstrings.cpp" line="50"/>
+        <source>Specify configuration file (default: bitcoin.conf)</source>
+        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: bitcoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: Fancycoind.pid)</source>
-        <translation>Nurodyti pid failą (pagal nutylėjimą: Fancycoind.pid)</translation>
+        <location filename="../bitcoinstrings.cpp" line="51"/>
+        <source>Specify pid file (default: bitcoind.pid)</source>
+        <translation>Nurodyti pid failą  (pagal nutylėjimą: bitcoind.pid)</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="52"/>
+        <source>Generate coins</source>
+        <translation>Sukurti monetas</translation>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="53"/>
+        <source>Don&apos;t generate coins</source>
+        <translation>Neišgavinėti monetų</translation>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="54"/>
         <source>Specify data directory</source>
-        <translation>Nustatyti duomenų aplanką</translation>
+        <translation>Nustatyti duomenų direktoriją</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="55"/>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="56"/>
+        <source>Set database disk log size in megabytes (default: 100)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="57"/>
+        <source>Specify connection timeout (in milliseconds)</source>
+        <translation>Nustatyti sujungimo trukmę (milisekundėmis)</translation>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="63"/>
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
         <translation>Sujungimo klausymas prijungčiai  &lt;port&gt; (pagal nutylėjimą: 8333 arba testnet: 18333)</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="64"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
         <translation>Palaikyti ne daugiau &lt;n&gt; jungčių kolegoms (pagal nutylėjimą: 125)</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="66"/>
+        <source>Connect only to the specified node</source>
+        <translation>Prisijungti tik prie nurodyto mazgo</translation>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="67"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="68"/>
         <source>Specify your own public address</source>
-        <translation>Nurodykite savo nuosavą viešą adresą</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="69"/>
+        <source>Only connect to nodes in network &lt;net&gt; (IPv4 or IPv6)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="70"/>
+        <source>Try to discover public IP address (default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="73"/>
+        <source>Bind to given address. Use [host]:port notation for IPv6</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="75"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>Atjungimo dėl netinkamo kolegų elgesio riba  (pagal nutylėjimą: 100)</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="76"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
         <translation>Sekundžių kiekis eikiamas palaikyti ryšį dėl lygiarangių nestabilumo (pagal nutylėjimą: 86.400)</translation>
     </message>
     <message>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
+        <location filename="../bitcoinstrings.cpp" line="79"/>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 10000)</source>
+        <translation>Maksimalus buferis priėmimo sujungimui &lt;n&gt;*1000 bitų (pagal nutylėjimą: 10000)</translation>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="80"/>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 10000)</source>
+        <translation>Maksimalus buferis siuntimo sujungimui &lt;n&gt;*1000 bitų (pagal nutylėjimą: 10000)</translation>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="83"/>
+        <source>Detach block and address databases. Increases shutdown time (default: 0)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Klausymas JSON-RPC sujungimui prijungčiai &lt;port&gt; (pagal nutylėjimą: 8332 or testnet: 18332)</translation>
-    </message>
-    <message>
+        <location filename="../bitcoinstrings.cpp" line="86"/>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Priimti komandinę eilutę ir JSON-RPC komandas</translation>
     </message>
     <message>
-        <source>Fancycoin Core RPC client version</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+        <location filename="../bitcoinstrings.cpp" line="87"/>
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Dirbti fone kaip šešėlyje ir priimti komandas</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="88"/>
         <source>Use the test network</source>
         <translation>Naudoti testavimo tinklą</translation>
     </message>
     <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation type="unfinished"/>
+        <location filename="../bitcoinstrings.cpp" line="89"/>
+        <source>Output extra debugging information</source>
+        <translation>Išėjimo papildomas derinimo informacija</translation>
     </message>
     <message>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=Fancycoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Fancycoin Alert&quot; admin@foo.com
-</source>
-        <translation type="unfinished"/>
+        <location filename="../bitcoinstrings.cpp" line="90"/>
+        <source>Prepend debug output with timestamp</source>
+        <translation>Prideėti laiko žymę derinimo rezultatams</translation>
     </message>
     <message>
-        <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:15)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Error: Listening for incoming connections failed (listen returned error %d)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Fees smaller than this are considered zero fee (for transaction creation) (default:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: 100)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>How thorough the block verification of -checkblocks is (0-4, default: 3)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Set the processor limit for when generation is on (-1 = unlimited, default: -1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. Fancycoin Core is probably already running.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Įspėjimas: -paytxfee yra nustatytas per didelis. Tai sandorio mokestis, kurį turėsite mokėti, jei siųsite sandorį.</translation>
-    </message>
-    <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Fancycoin will not work properly.</source>
-        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas Bitcoin, veiks netinkamai.</translation>
-    </message>
-    <message>
-        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>(default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>(default: wallet.dat)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>&lt;category&gt; can be:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Fancycoin Core Daemon</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Block creation options:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Clear list of wallet transactions (diagnostic tool; implies -rescan)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Prisijungti tik prie nurodyto mazgo</translation>
-    </message>
-    <message>
-        <source>Connect through SOCKS proxy</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Connection options:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Corrupted block database detected</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Debugging/Testing options:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Disable safemode, override a real safe mode event (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Do you want to rebuild the block database now?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Error initializing block database</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Error loading block database</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Error opening block database</source>
-        <translation>Klaida atveriant blokų duombazę</translation>
-    </message>
-    <message>
-        <source>Error: Disk space is low!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Error: system error: </source>
-        <translation>Klaida: sistemos klaida:</translation>
-    </message>
-    <message>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Failed to read block info</source>
-        <translation>Nepavyko nuskaityti bloko informacijos</translation>
-    </message>
-    <message>
-        <source>Failed to read block</source>
-        <translation>Nepavyko nuskaityti bloko</translation>
-    </message>
-    <message>
-        <source>Failed to sync block index</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Failed to write block index</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Failed to write block info</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Failed to write block</source>
-        <translation>Nepavyko įrašyti bloko</translation>
-    </message>
-    <message>
-        <source>Failed to write file info</source>
-        <translation>Nepavyko įrašyti failo informacijos</translation>
-    </message>
-    <message>
-        <source>Failed to write to coin database</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Failed to write transaction index</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Failed to write undo data</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Fee per kB to add to transactions you send</source>
-        <translation> Įtraukti mokestį už kB siunčiamiems sandoriams</translation>
-    </message>
-    <message>
-        <source>Fees smaller than this are considered zero fee (for relaying) (default:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Force safe mode (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Generate coins (default: 0)</source>
-        <translation>Generuoti monetas (numatyta: 0)</translation>
-    </message>
-    <message>
-        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Importing...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Invalid -onion address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Not enough file descriptors available.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Prepend debug output with timestamp (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>RPC client options:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Select SOCKS version for -proxy (4 or 5, default: 5)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Set maximum block size in bytes (default: %d)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Specify wallet file (within data directory)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Spend unconfirmed change when sending transactions (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>This is intended for regression testing tools and app development.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Usage (deprecated, use Fancycoin-cli):</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Verifying blocks...</source>
-        <translation>Tikrinami blokai...</translation>
-    </message>
-    <message>
-        <source>Verifying wallet...</source>
-        <translation>Tikrinama piniginė...</translation>
-    </message>
-    <message>
-        <source>Wait for RPC server to start</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Wallet %s resides outside data directory %s</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Wallet options:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Imports blocks from external blk000??.dat file</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Cannot obtain a lock on data directory %s. Fancycoin Core is probably already running.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation>Informacija</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Limit size of signature cache to &lt;n&gt; entries (default: 50000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Log transaction priority and fee per kB when mining blocks (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Maintain a full transaction index (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation>Maksimalus buferis priėmimo sujungimui &lt;n&gt;*1000 bitų (pagal nutylėjimą: 5000)</translation>
-    </message>
-    <message>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>Maksimalus buferis siuntimo sujungimui &lt;n&gt;*1000 bitų (pagal nutylėjimą: 1000)</translation>
-    </message>
-    <message>
-        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Print block on startup, if found in block index</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Print block tree on startup (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>RPC SSL options: (see the Fancycoin Wiki for SSL setup instructions)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>RPC server options:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Run a thread to flush wallet periodically (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>SSL options: (see the Fancycoin Wiki for SSL setup instructions)</source>
-        <translation>SSL opcijos (žr.e Fancycoin Wiki for SSL setup instructions)</translation>
-    </message>
-    <message>
-        <source>Send command to Fancycoin Core</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+        <location filename="../bitcoinstrings.cpp" line="91"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Siųsti atsekimo/derinimo info į konsolę vietoj debug.log failo</translation>
     </message>
     <message>
-        <source>Set minimum block size in bytes (default: 0)</source>
-        <translation type="unfinished"/>
+        <location filename="../bitcoinstrings.cpp" line="92"/>
+        <source>Send trace/debug info to debugger</source>
+        <translation>Siųsti sekimo/derinimo info derintojui</translation>
     </message>
     <message>
-        <source>Sets the DB_PRIVATE flag in the wallet db environment (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Show benchmark information (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Signing transaction failed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>Nustatyti sujungimo trukmę milisekundėmis (pagal nutylėjimą: 5000)</translation>
-    </message>
-    <message>
-        <source>Start Fancycoin Core Daemon</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>System error: </source>
-        <translation>Sistemos klaida:</translation>
-    </message>
-    <message>
-        <source>Transaction amount too small</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Transaction amounts must be positive</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Transaction too large</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>Bandymas naudoti UPnP struktūra klausymosi prievadui (default: 0)</translation>
-    </message>
-    <message>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Bandymas naudoti UPnP struktūra klausymosi prievadui (default: 1 when listening)</translation>
-    </message>
-    <message>
+        <location filename="../bitcoinstrings.cpp" line="93"/>
         <source>Username for JSON-RPC connections</source>
         <translation>Vartotojo vardas JSON-RPC jungimuisi</translation>
     </message>
     <message>
-        <source>Warning</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Zapping all transactions from wallet...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>on startup</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>version</source>
-        <translation>versija</translation>
-    </message>
-    <message>
-        <source>wallet.dat corrupt, salvage failed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+        <location filename="../bitcoinstrings.cpp" line="94"/>
         <source>Password for JSON-RPC connections</source>
         <translation>Slaptažodis JSON-RPC sujungimams</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="95"/>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332)</source>
+        <translation>Klausymas JSON-RPC sujungimui prijungčiai &lt;port&gt; (pagal nutylėjimą: 8332)</translation>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="96"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>Leisti JSON-RPC tik iš nurodytų IP adresų</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="97"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
         <translation>Siųsti komandą mazgui dirbančiam &lt;ip&gt; (pagal nutylėjimą: 127.0.0.1)</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="98"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="101"/>
         <source>Upgrade wallet to latest format</source>
-        <translation>Atnaujinti piniginę į naujausią formatą</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="102"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
         <translation>Nustatyti rakto apimties dydį &lt;n&gt; (pagal nutylėjimą: 100)</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="103"/>
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>Ieškoti  prarastų piniginės sandorių blokų grandinėje</translation>
     </message>
     <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Naudoti OpenSSL (https) jungimuisi JSON-RPC </translation>
+        <location filename="../bitcoinstrings.cpp" line="104"/>
+        <source>How many blocks to check at startup (default: 2500, 0 = all)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="105"/>
+        <source>How thorough the block verification is (0-6, default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="106"/>
+        <source>Imports blocks from external blk000?.dat file</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="108"/>
+        <source>
+SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>SSL opcijos (žr.e Bitcoin Wiki for SSL setup instructions)</translation>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="111"/>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Naudoti OpenSSL  (https) jungimuisi JSON-RPC </translation>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="112"/>
         <source>Server certificate file (default: server.cert)</source>
         <translation>Serverio sertifikato failas (pagal nutylėjimą: server.cert)</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="113"/>
         <source>Server private key (default: server.pem)</source>
-        <translation>Serverio privatus raktas (pagal nutylėjimą: server.pem)</translation>
+        <translation>Serverio privatus raktas  (pagal nutylėjimą: server.pem)</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="114"/>
+        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
+        <translation>Priimtini šifrai (pagal nutylėjimą: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="145"/>
+        <source>Warning: Disk space is low</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="107"/>
         <source>This help message</source>
         <translation>Pagelbos žinutė</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="121"/>
+        <source>Cannot obtain a lock on data directory %s.  Bitcoin is probably already running.</source>
+        <translation>Negali gauti duomenų katalogo %s rakto. Bitcoin tikriausiai jau veikia.</translation>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="48"/>
+        <source>Bitcoin</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="30"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Nepavyko susieti šiame kompiuteryje prievado %s (bind returned error %d, %s)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="58"/>
+        <source>Connect through socks proxy</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="59"/>
+        <source>Select the version of socks proxy to use (4 or 5, 5 is default)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="60"/>
+        <source>Do not use proxy for connections to network &lt;net&gt; (IPv4 or IPv6)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="61"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Leisti DNS paiešką sujungimui ir mazgo pridėjimui</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="62"/>
+        <source>Pass DNS requests to (SOCKS5) proxy</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="142"/>
         <source>Loading addresses...</source>
         <translation>Užkraunami adresai...</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="132"/>
+        <source>Error loading blkindex.dat</source>
+        <translation>blkindex.dat pakrovimo klaida</translation>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="134"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
         <translation> wallet.dat pakrovimo klaida,  wallet.dat sugadintas</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Fancycoin</source>
-        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės Fancycoin versijos</translation>
+        <location filename="../bitcoinstrings.cpp" line="135"/>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
+        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės Bitcoin versijos</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Fancycoin to complete</source>
-        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite Fancycoin</translation>
+        <location filename="../bitcoinstrings.cpp" line="136"/>
+        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
+        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite Bitcoin</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="137"/>
         <source>Error loading wallet.dat</source>
         <translation> wallet.dat pakrovimo klaida</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="124"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Neteisingas proxy adresas: &apos;%s&apos;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="125"/>
+        <source>Unknown network specified in -noproxy: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="127"/>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
         <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="126"/>
         <source>Unknown -socks proxy version requested: %i</source>
         <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="128"/>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
         <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="129"/>
+        <source>Not listening on any port</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="130"/>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
         <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="117"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Neteisinga suma -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="143"/>
+        <source>Error: could not start node</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="31"/>
+        <source>Error: Wallet locked, unable to create transaction  </source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="32"/>
+        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds  </source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="35"/>
+        <source>Error: Transaction creation failed  </source>
+        <translation>KLAIDA:nepavyko sudaryti sandorio</translation>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="36"/>
+        <source>Sending...</source>
+        <translation>Siunčiama</translation>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="37"/>
+        <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>Klaida: sandoris buvo atmestas.Tai gali įvykti, jei kai kurios monetos iš jūsų piniginėje jau buvo panaudotos, pvz. jei naudojote wallet.dat kopiją ir monetos buvo išleistos kopijoje, bet nepažymėtos kaip skirtos išleisti čia.</translation>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="41"/>
         <source>Invalid amount</source>
-        <translation>Neteisinga suma</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="42"/>
         <source>Insufficient funds</source>
-        <translation>Nepakanka lėšų</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="131"/>
         <source>Loading block index...</source>
-        <translation>Įkeliamas blokų indeksas...</translation>
+        <translation>Užkraunami blokų indeksai...</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="65"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Pridėti mazgą prie sujungti su and attempt to keep the connection open</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="28"/>
+        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="71"/>
+        <source>Find peers using internet relay chat (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="72"/>
+        <source>Accept connections from outside (default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="74"/>
+        <source>Find peers using DNS lookup (default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="81"/>
+        <source>Use Universal Plug and Play to map the listening port (default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="82"/>
+        <source>Use Universal Plug and Play to map the listening port (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="85"/>
+        <source>Fee per KB to add to transactions you send</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="118"/>
+        <source>Warning: -paytxfee is set very high. This is the transaction fee you will pay if you send a transaction.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="133"/>
         <source>Loading wallet...</source>
         <translation>Užkraunama piniginė...</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="138"/>
         <source>Cannot downgrade wallet</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot write default address</source>
-        <translation>Negalima parašyti įprasto adreso</translation>
+        <location filename="../bitcoinstrings.cpp" line="139"/>
+        <source>Cannot initialize keypool</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="140"/>
+        <source>Cannot write default address</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="141"/>
         <source>Rescanning...</source>
         <translation>Peržiūra</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="144"/>
         <source>Done loading</source>
-        <translation>Įkėlimas baigtas</translation>
+        <translation>Pakrovimas baigtas</translation>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="8"/>
         <source>To use the %s option</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Error</source>
-        <translation>Klaida</translation>
+        <location filename="../bitcoinstrings.cpp" line="9"/>
+        <source>%s, you must set a rpcpassword in the configuration file:
+ %s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+If the file does not exist, create it with owner-readable-only file permissions.
+</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../bitcoinstrings.cpp" line="18"/>
+        <source>Error</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="19"/>
+        <source>An error occured while setting up the RPC port %i for listening: %s</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="20"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
         <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../bitcoinstrings.cpp" line="25"/>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas Bitcoin, veiks netinkamai.</translation>
     </message>
 </context>
 </TS>

@@ -1,25 +1,19 @@
-// Copyright (c) 2011-2013 The Bitcoin developers
-// Distributed under the MIT/X11 software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
 #ifndef TRANSACTIONTABLEMODEL_H
 #define TRANSACTIONTABLEMODEL_H
 
 #include <QAbstractTableModel>
 #include <QStringList>
 
-class TransactionRecord;
-class TransactionTablePriv;
-class WalletModel;
-
 class CWallet;
+class TransactionTablePriv;
+class TransactionRecord;
+class WalletModel;
 
 /** UI model for the transaction table of a wallet.
  */
 class TransactionTableModel : public QAbstractTableModel
 {
     Q_OBJECT
-
 public:
     explicit TransactionTableModel(CWallet* wallet, WalletModel *parent = 0);
     ~TransactionTableModel();
@@ -50,14 +44,10 @@ public:
         AmountRole,
         /** Unique identifier */
         TxIDRole,
-        /** Transaction hash */
-        TxHashRole,
         /** Is transaction confirmed? */
         ConfirmedRole,
         /** Formatted amount, without brackets when unconfirmed */
-        FormattedAmountRole,
-        /** Transaction status (TransactionRecord::Status) */
-        StatusRole
+        FormattedAmountRole
     };
 
     int rowCount(const QModelIndex &parent) const;
@@ -65,12 +55,12 @@ public:
     QVariant data(const QModelIndex &index, int role) const;
     QVariant headerData(int section, Qt::Orientation orientation, int role) const;
     QModelIndex index(int row, int column, const QModelIndex & parent = QModelIndex()) const;
-
 private:
     CWallet* wallet;
     WalletModel *walletModel;
     QStringList columns;
     TransactionTablePriv *priv;
+    int cachedNumBlocks;
 
     QString lookupAddress(const std::string &address, bool tooltip) const;
     QVariant addressColor(const TransactionRecord *wtx) const;
@@ -91,4 +81,5 @@ public slots:
     friend class TransactionTablePriv;
 };
 
-#endif // TRANSACTIONTABLEMODEL_H
+#endif
+
